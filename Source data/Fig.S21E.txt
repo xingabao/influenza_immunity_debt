@@ -1,0 +1,74 @@
+Source data for Fig.S21E: Convergent cross mapping (CCM) causality test, Flu A versus Flu B
+LibSize	Rho	Type	Direction	Class
+10	0.0588935070943237	Real Data	Flu A causes Flu B	Observed
+35	0.106886847101607	Real Data	Flu A causes Flu B	Observed
+60	0.112499802590891	Real Data	Flu A causes Flu B	Observed
+85	0.115472526294048	Real Data	Flu A causes Flu B	Observed
+110	0.130738921738091	Real Data	Flu A causes Flu B	Observed
+135	0.129641980135376	Real Data	Flu A causes Flu B	Observed
+160	0.133136393146287	Real Data	Flu A causes Flu B	Observed
+185	0.138168222994622	Real Data	Flu A causes Flu B	Observed
+210	0.135426501255135	Real Data	Flu A causes Flu B	Observed
+235	0.133912798927984	Real Data	Flu A causes Flu B	Observed
+260	0.141210509287993	Real Data	Flu A causes Flu B	Observed
+285	0.140464483975352	Real Data	Flu A causes Flu B	Observed
+310	0.145277092181888	Real Data	Flu A causes Flu B	Observed
+335	0.143483880723867	Real Data	Flu A causes Flu B	Observed
+360	0.14304151174454	Real Data	Flu A causes Flu B	Observed
+385	0.139922323917395	Real Data	Flu A causes Flu B	Observed
+410	0.13991772997123	Real Data	Flu A causes Flu B	Observed
+435	0.140543064158384	Real Data	Flu A causes Flu B	Observed
+10	0.0367197132030123	95% Null Limit	Flu A causes Flu B	Null 95%
+35	0.0641376047798278	95% Null Limit	Flu A causes Flu B	Null 95%
+60	0.0789761259004624	95% Null Limit	Flu A causes Flu B	Null 95%
+85	0.0848053834815131	95% Null Limit	Flu A causes Flu B	Null 95%
+110	0.094059658969265	95% Null Limit	Flu A causes Flu B	Null 95%
+135	0.0942059348852143	95% Null Limit	Flu A causes Flu B	Null 95%
+160	0.098695409826747	95% Null Limit	Flu A causes Flu B	Null 95%
+185	0.0930158975688952	95% Null Limit	Flu A causes Flu B	Null 95%
+210	0.102622574147749	95% Null Limit	Flu A causes Flu B	Null 95%
+235	0.0976964897544743	95% Null Limit	Flu A causes Flu B	Null 95%
+260	0.103855146311512	95% Null Limit	Flu A causes Flu B	Null 95%
+285	0.108149789053125	95% Null Limit	Flu A causes Flu B	Null 95%
+310	0.11201338855782	95% Null Limit	Flu A causes Flu B	Null 95%
+335	0.115460565191013	95% Null Limit	Flu A causes Flu B	Null 95%
+360	0.119676692466278	95% Null Limit	Flu A causes Flu B	Null 95%
+385	0.119135715540768	95% Null Limit	Flu A causes Flu B	Null 95%
+410	0.125090500957901	95% Null Limit	Flu A causes Flu B	Null 95%
+435	0.129447508301238	95% Null Limit	Flu A causes Flu B	Null 95%
+10	0.0165349793368161	Real Data	Flu B causes Flu A	Observed
+35	0.0481996659052249	Real Data	Flu B causes Flu A	Observed
+60	0.0392141171076989	Real Data	Flu B causes Flu A	Observed
+85	0.0678494519922054	Real Data	Flu B causes Flu A	Observed
+110	0.0845307526352548	Real Data	Flu B causes Flu A	Observed
+135	0.0828578402292585	Real Data	Flu B causes Flu A	Observed
+160	0.0835229802575227	Real Data	Flu B causes Flu A	Observed
+185	0.0839414611290706	Real Data	Flu B causes Flu A	Observed
+210	0.0855394829514174	Real Data	Flu B causes Flu A	Observed
+235	0.0824018158026077	Real Data	Flu B causes Flu A	Observed
+260	0.0850140749221743	Real Data	Flu B causes Flu A	Observed
+285	0.0814507373433969	Real Data	Flu B causes Flu A	Observed
+310	0.083440847304044	Real Data	Flu B causes Flu A	Observed
+335	0.0813621480102325	Real Data	Flu B causes Flu A	Observed
+360	0.0851135755812209	Real Data	Flu B causes Flu A	Observed
+385	0.0842660416662162	Real Data	Flu B causes Flu A	Observed
+410	0.0859258431880424	Real Data	Flu B causes Flu A	Observed
+435	0.087073486801391	Real Data	Flu B causes Flu A	Observed
+10	0.0521965988905895	95% Null Limit	Flu B causes Flu A	Null 95%
+35	0.0857290415236279	95% Null Limit	Flu B causes Flu A	Null 95%
+60	0.0810555213293041	95% Null Limit	Flu B causes Flu A	Null 95%
+85	0.0903188527938783	95% Null Limit	Flu B causes Flu A	Null 95%
+110	0.0995100075219388	95% Null Limit	Flu B causes Flu A	Null 95%
+135	0.102518825449682	95% Null Limit	Flu B causes Flu A	Null 95%
+160	0.103757969024834	95% Null Limit	Flu B causes Flu A	Null 95%
+185	0.11011508785754	95% Null Limit	Flu B causes Flu A	Null 95%
+210	0.104218744917169	95% Null Limit	Flu B causes Flu A	Null 95%
+235	0.123425718690385	95% Null Limit	Flu B causes Flu A	Null 95%
+260	0.116850049700543	95% Null Limit	Flu B causes Flu A	Null 95%
+285	0.128074722463146	95% Null Limit	Flu B causes Flu A	Null 95%
+310	0.131699726327893	95% Null Limit	Flu B causes Flu A	Null 95%
+335	0.123025041615039	95% Null Limit	Flu B causes Flu A	Null 95%
+360	0.129799185302947	95% Null Limit	Flu B causes Flu A	Null 95%
+385	0.130730910232486	95% Null Limit	Flu B causes Flu A	Null 95%
+410	0.131669454928971	95% Null Limit	Flu B causes Flu A	Null 95%
+435	0.132104583853811	95% Null Limit	Flu B causes Flu A	Null 95%

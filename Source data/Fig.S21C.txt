@@ -1,0 +1,4 @@
+Source data for Fig.S21C: Linear Granger causality test between Flu A and Flu B
+Direction	Stat	P_val	Type	Sig	P_label
+Flu A -> Flu B	1.3498479284899	0.216835221260468	Linear (F-test)	NS	*P* = 0.217
+Flu B -> Flu A	0.827037156001275	0.579050625387099	Linear (F-test)	NS	*P* = 0.579

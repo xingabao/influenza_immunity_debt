@@ -1,0 +1,4 @@
+Source data for Fig.4D: Cumulative relative risk at cold temperature (10th percentile) versus warm reference (90th percentile), pre- versus post-pandemic, with ratio of RRs, Wald and LRT P values (time-stratified DLNM with step-change interaction)
+q_cold	q_warm	cen	RR_pre	RR_pre_low	RR_pre_high	RR_post	RR_post_low	RR_post_high	RR_ratio_post_vs_pre	RR_ratio_post_vs_pre_low	RR_ratio_post_vs_pre_high	Wald_P_Value	LRT_P_Value	Virus
+16.3071428571429	28.7857142857143	24.0928571428571	1.25427715288545	0.842994320509388	1.86621800168214	0.697187633194324	0.434759346680242	1.11802218765546	0.555848148545522	0.341629751674811	0.90439185324697	3.60407078536687e-11		FLUA
+16.3071428571429	28.7857142857143	24.0928571428571	1.10336893228394	0.766190667098867	1.58892956153996	1.17745029853338	0.736218512520541	1.88312190190635	1.0671410659498	0.655319182195195	1.7377639562171	0.0122805091028876		FLUB

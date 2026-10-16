@@ -1,0 +1,6 @@
+Source data for Fig.S20C: Bridge strength centrality between influenza nodes (A, B) and the environmental cluster, pre- versus post-pandemic
+Virus	Scenario	BridgeStrength
+Influneza A	Pre-Pandemic	0.687360258469076
+Influneza A	Post-Pandemic	0.503099309279704
+Influneza B	Pre-Pandemic	0.744910612306726
+Influneza B	Post-Pandemic	0.914275846873921

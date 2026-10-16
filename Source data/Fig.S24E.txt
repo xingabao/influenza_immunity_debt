@@ -1,0 +1,14 @@
+Source data for Fig.S24E: Sensitivity of cross map skill (rho) to embedding dimension E
+Period	E	Direction	Rho
+Pre-Pandemic	2	Search to Influenza	-0.0870659782759751
+Pre-Pandemic	3	Search to Influenza	-0.0707485744606438
+Pre-Pandemic	4	Search to Influenza	0.0288351450403128
+Pre-Pandemic	2	Influenza to Search	0.146903362364652
+Pre-Pandemic	3	Influenza to Search	0.276073959892935
+Pre-Pandemic	4	Influenza to Search	0.260266598733587
+Post-Pandemic	2	Search to Influenza	0.11562540395878
+Post-Pandemic	3	Search to Influenza	0.0361055252579267
+Post-Pandemic	4	Search to Influenza	0.0659028230614268
+Post-Pandemic	2	Influenza to Search	-0.179195347930791
+Post-Pandemic	3	Influenza to Search	-0.105347706758912
+Post-Pandemic	4	Influenza to Search	0.129167293537654

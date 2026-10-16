@@ -1,0 +1,1052 @@
+nohup: 忽略输入
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    zoyal-poweredge-r7525 (AVX2, FMA3, 503 GB RAM)
+Command: /tools/iqtree-2.4.0-Linux-intel/bin/iqtree2 -s /results/GISAID/GISAID.B.aligned.fasta -m GTR+G -nt AUTO -B 1000 --prefix B/B
+Seed:    432749 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Jan 24 21:40:56 2026
+Kernel:  AVX+FMA - auto-detect threads (64 CPU cores detected)
+
+Reading alignment file /results/GISAID/GISAID.B.aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.0157532 secs using 82.74% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 699 sequences with 1885 columns, 801 distinct patterns
+412 parsimony-informative, 167 singleton sites, 1306 constant sites
+                                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0124646 secs using 4563% CPU
+   1  EPI4679805|B/Hong_Kong/HKU-250915-001/2025|2025    2.02%    passed     62.11%
+   2  EPI4731462|B/Hong_Kong/187/2025|2025               7.21%    passed     99.47%
+   3  EPI1158001|B/Hong_Kong/1089/2017|2017              6.74%    passed     99.51%
+   4  EPI1158011|B/Hong_Kong/1095/2017|2017              7.21%    passed     99.87%
+   5  EPI1158009|B/Hong_Kong/1094/2017|2017              6.74%    passed     99.89%
+   6  EPI1158031|B/Hong_Kong/695/2017|2017               6.74%    passed     99.73%
+   7  EPI1158033|B/Hong_Kong/930/2017|2017               7.21%    passed     99.67%
+   8  EPI1158021|B/Hong_Kong/1111/2017|2017              6.74%    passed     99.93%
+   9  EPI1158023|B/Hong_Kong/1118/2017|2017              6.74%    passed     99.95%
+  10  EPI1158025|B/Hong_Kong/1143/2017|2017              6.74%    passed     99.51%
+  11  EPI859116|B/Hong_Kong/1544/2016|2016               6.79%    passed     99.97%
+  12  EPI1265876|B/Hong_Kong/1294/2018|2018              1.54%    passed     84.98%
+  13  EPI1265884|B/Hong_Kong/1356/2018|2018              1.54%    passed     83.09%
+  14  EPI1265892|B/Hong_Kong/1304/2018|2018              1.54%    passed     85.90%
+  15  EPI2149314|B/Hong_Kong/6893/2022|2022              7.27%    passed     99.65%
+  16  EPI4948413|B/Hong_Kong/199/2025|2025               7.21%    passed     97.87%
+  17  EPI4841519|B/Hong_Kong/RFL-273/2025|2025           1.01%    passed     61.45%
+  18  EPI4841540|B/Hong_Kong/RFL-274/2025|2025           0.42%    passed     65.72%
+  19  EPI4649479|B/Hong_Kong/RFL-263/2025|2025           0.48%    passed     61.91%
+  20  EPI4649410|B/Hong_Kong/RFL-260/2025|2025           0.64%    passed     66.21%
+  21  EPI3834888|B/HongKong/218/2024|2024                7.21%    passed     99.74%
+  22  EPI3834872|B/HongKong/217/2024|2024                7.21%    passed     99.61%
+  23  EPI3834843|B/HongKong/219/2024|2024                7.21%    passed     99.76%
+  24  EPI3834860|B/HongKong/220/2024|2024                7.21%    passed     99.88%
+  25  EPI3834810|B/HongKong/222/2024|2024                7.21%    passed     99.78%
+  26  EPI3834827|B/HongKong/223/2024|2024                7.21%    passed     99.63%
+  27  EPI1267277|B/HK/1360/2018|2018                     7.06%    passed     99.28%
+  28  EPI1267278|B/HK/1361/2018|2018                     7.06%    passed     99.28%
+  29  EPI366221|B/Hong_Kong/746/2011|2011                6.74%    passed     99.52%
+  30  EPI3358188|B/Hong_Kong/VB24147368/2024|2024        7.21%    passed     98.81%
+  31  EPI2498319|B/HK/8/2023|2023                        7.21%    passed     99.76%
+  32  EPI3358189|B/Hong_Kong/VB24170761/2024|2024        7.21%    passed     99.23%
+  33  EPI2498321|B/HK/11/2023|2023                       7.21%    passed     99.15%
+  34  EPI2498320|B/HK/9/2023|2023                        7.21%    passed     99.15%
+  35  EPI2498322|B/HK/10/2023|2023                       7.21%    passed     98.89%
+  36  EPI3834781|B/HongKong/224/2024|2024                7.21%    passed     99.76%
+  37  EPI3358194|B/Hong_Kong/VB24096494/2024|2024        7.21%    passed     99.28%
+  38  EPI3834794|B/HongKong/228/2024|2024                7.21%    passed     98.07%
+  39  EPI3358195|B/Hong_Kong/VB24155458/2024|2024        7.21%    passed     99.22%
+  40  EPI3358190|B/Hong_Kong/VB24113942/2024|2024        7.21%    passed     99.54%
+  41  EPI3834768|B/HongKong/231/2024|2024                7.21%    passed     98.07%
+  42  EPI3358191|B/Hong_Kong/VB24129219/2024|2024        7.21%    passed     99.69%
+  43  EPI3358192|B/Hong_Kong/VB24078471/2024|2024        7.21%    passed     99.79%
+  44  EPI3358193|B/Hong_Kong/VB24089107/2024|2024        7.21%    passed     99.28%
+  45  EPI1542922|B/Hong_Kong/308/2019|2019               7.21%    passed     97.64%
+  46  EPI1542920|B/Hong_Kong/218/2019|2019               7.21%    passed     99.51%
+  47  EPI1542926|B/Hong_Kong/575/2019|2019               7.21%    passed     97.64%
+  48  EPI3834754|B/HongKong/230/2024|2024                7.21%    passed     99.70%
+  49  EPI1542924|B/Hong_Kong/574/2019|2019               7.21%    passed     98.14%
+  50  EPI1542938|B/Hong_Kong/581/2019|2019               6.74%    passed     98.18%
+  51  EPI1542936|B/Hong_Kong/580/2019|2019               7.21%    passed     96.90%
+  52  EPI1542942|B/Hong_Kong/583/2019|2019               7.21%    passed     97.20%
+  53  EPI1542940|B/Hong_Kong/582/2019|2019               7.21%    passed     97.60%
+  54  EPI1542930|B/Hong_Kong/577/2019|2019               7.21%    passed     97.64%
+  55  EPI1542928|B/Hong_Kong/576/2019|2019               7.21%    passed     98.37%
+  56  EPI1542934|B/Hong_Kong/579/2019|2019               7.21%    passed     95.98%
+  57  EPI1542932|B/Hong_Kong/578/2019|2019               7.21%    passed     97.64%
+  58  EPI1542954|B/Hong_Kong/60/2019|2019                7.27%    passed     98.49%
+  59  EPI1542952|B/Hong_Kong/588/2019|2019               7.21%    passed     96.07%
+  60  EPI1542946|B/Hong_Kong/585/2019|2019               7.21%    passed     97.35%
+  61  EPI1542944|B/Hong_Kong/584/2019|2019               7.21%    passed     96.96%
+  62  EPI1542950|B/Hong_Kong/587/2019|2019               7.21%    passed     98.33%
+  63  EPI1542948|B/Hong_Kong/586/2019|2019               7.27%    passed     97.74%
+  64  EPI536445|B/Hong_Kong/3298/2014|2014               6.74%    passed     99.87%
+  65  EPI536441|B/Hong_Kong/3221/2014|2014               6.74%    passed     99.92%
+  66  EPI536443|B/Hong_Kong/3224/2014|2014               6.74%    passed     99.87%
+  67  EPI4638989|B/Hong_Kong/165/2025|2025               7.21%    passed     99.66%
+  68  EPI4638981|B/Hong_Kong/169/2025|2025               7.21%    passed     96.81%
+  69  EPI4639003|B/Hong_Kong/150/2025|2025               7.21%    passed     98.30%
+  70  EPI4638997|B/Hong_Kong/154/2025|2025               7.21%    passed     99.57%
+  71  EPI3552413|B/Hong_Kong/2047/2024|2024              2.02%    passed     89.81%
+  72  EPI3552421|B/Hong_Kong/2228/2024|2024              2.02%    passed     95.58%
+  73  EPI3552429|B/Hong_Kong/3847/2024|2024              2.02%    passed     91.64%
+  74  EPI3552437|B/Hong_Kong/3779/2024|2024              2.02%    passed     93.57%
+  75  EPI3552445|B/Hong_Kong/3697/2024|2024              2.02%    passed     89.81%
+  76  EPI3552453|B/Hong_Kong/1079/2024|2024              2.02%    passed     92.16%
+  77  EPI3552461|B/Hong_Kong/0916/2024|2024              2.02%    passed     93.94%
+  78  EPI3552469|B/Hong_Kong/3384/2024|2024              2.02%    passed     95.58%
+  79  EPI3552477|B/Hong_Kong/4493/2024|2024              2.02%    passed     93.97%
+  80  EPI3552481|B/Hong_Kong/6102/2024|2024              2.02%    passed     93.22%
+  81  EPI1691333|B/HK/990/2019|2019                      7.21%    passed     98.14%
+  82  EPI1691334|B/HK/997/2019|2019                      7.21%    passed     99.28%
+  83  EPI1691332|B/HK/986/2019|2019                      7.21%    passed     99.82%
+  84  EPI902523|B/Hong_Kong/767/2011|2011                6.74%    passed     99.18%
+  85  EPI902537|B/Hong_Kong/762/2011|2011                6.74%    passed     99.42%
+  86  EPI902535|B/Hong_Kong/599/2011|2011                6.74%    passed     99.50%
+  87  EPI902543|B/Hong_Kong/767/2011|2011                6.74%    passed     99.42%
+  88  EPI1383341|B/Hong_Kong/1410/2018|2018              1.54%    passed     67.65%
+  89  EPI1383333|B/Hong_Kong/1407/2018|2018              1.54%    passed     72.28%
+  90  EPI902583|B/Hong_Kong/1889/2010|2010               6.74%    passed     99.64%
+  91  EPI902603|B/Hong_Kong/591/2011|2011                6.74%    passed     99.16%
+  92  EPI902769|B/Hong_Kong/2207/2010|2010               6.74%    passed     98.77%
+  93  EPI902767|B/Hong_Kong/2200/2010|2010               6.74%    passed     99.20%
+  94  EPI1604892|B/HK/659/2019|2019                      7.21%    passed     99.11%
+  95  EPI1604893|B/HK/660/2019|2019                      7.21%    passed     98.67%
+  96  EPI1604890|B/HK/657/2019|2019                      7.21%    passed     98.70%
+  97  EPI1604891|B/HK/658/2019|2019                      7.21%    passed     97.64%
+  98  EPI1604888|B/HK/669/2019|2019                      7.21%    passed     98.47%
+  99  EPI1604889|B/HK/655/2019|2019                      7.21%    passed     98.47%
+ 100  EPI2455772|B/HK/2/2023|2023                        7.21%    passed     98.95%
+ 101  EPI1604896|B/HK/671/2019|2019                      7.21%    passed     96.96%
+ 102  EPI1604897|B/HK/672/2019|2019                      7.21%    passed     98.47%
+ 103  EPI1604894|B/HK/661/2019|2019                      7.21%    passed     98.47%
+ 104  EPI1604895|B/HK/670/2019|2019                      7.21%    passed     97.64%
+ 105  EPI4649889|B/Hong_Kong/RFL-261/2025|2025           0.42%    passed     65.72%
+ 106  EPI1604926|B/HK/848/2019|2019                      7.21%    passed     99.80%
+ 107  EPI1604929|B/HK/865/2019|2019                      7.21%    passed     99.28%
+ 108  EPI1604927|B/HK/859/2019|2019                      7.21%    passed     99.80%
+ 109  EPI1604928|B/HK/866/2019|2019                      7.21%    passed     96.65%
+ 110  EPI4649874|B/Hong_Kong/RFL-266/2025|2025           0.53%    passed     64.06%
+ 111  EPI3786484|B/Hong_Kong/238/2024|2024               7.27%    passed     99.20%
+ 112  EPI1605073|B/Hong_Kong/429130/2019|2019           52.36%    passed     34.42%
+ 113  EPI1605074|B/Hong_Kong/429235/2019|2019           52.04%    passed     41.24%
+ 114  EPI1605071|B/Hong_Kong/428915/2019|2019           55.07%    passed     36.52%
+ 115  EPI1605072|B/Hong_Kong/428917/2019|2019           55.12%    passed     34.19%
+ 116  EPI1605069|B/Hong_Kong/412049/2019|2019           54.16%    passed     35.87%
+ 117  EPI1605070|B/Hong_Kong/428199/2019|2019           51.72%    passed     33.95%
+ 118  EPI1605081|B/Hong_Kong/429543/2019|2019           52.25%    passed     34.87%
+ 119  EPI1118515|B/Hong_Kong/286/2017|2017               2.02%    passed     78.87%
+ 120  EPI1605082|B/Hong_Kong/429581/2019|2019           52.84%    passed     35.09%
+ 121  EPI1605079|B/Hong_Kong/429389/2019|2019           51.88%    passed     49.72%
+ 122  EPI1605080|B/Hong_Kong/429392/2019|2019           53.00%    passed     33.59%
+ 123  EPI1605077|B/Hong_Kong/429379/2019|2019           52.36%    passed     40.79%
+ 124  EPI1605078|B/Hong_Kong/429380/2019|2019           53.21%    passed     43.38%
+ 125  EPI1605075|B/Hong_Kong/429281/2019|2019           52.04%    passed     41.24%
+ 126  EPI1605076|B/Hong_Kong/429309/2019|2019           52.36%    passed     35.71%
+ 127  EPI1605089|B/Hong_Kong/430044/2019|2019           53.53%    passed     34.76%
+ 128  EPI1605090|B/Hong_Kong/430063/2019|2019           53.05%    passed     29.99%
+ 129  EPI1605087|B/Hong_Kong/430026/2019|2019           52.04%    passed     41.24%
+ 130  EPI1605088|B/Hong_Kong/430043/2019|2019           53.32%    passed     33.24%
+ 131  EPI1605085|B/Hong_Kong/429938/2019|2019           52.10%    passed     38.64%
+ 132  EPI1605086|B/Hong_Kong/429993/2019|2019           51.88%    passed     48.17%
+ 133  EPI1605083|B/Hong_Kong/429585/2019|2019           52.25%    passed     33.98%
+ 134  EPI1605084|B/Hong_Kong/429923/2019|2019           52.68%    passed     45.02%
+ 135  EPI1605097|B/Hong_Kong/431243/2019|2019           61.75%    passed     73.08%
+ 136  EPI1605098|B/Hong_Kong/431389/2019|2019           50.77%    passed     39.70%
+ 137  EPI1605095|B/Hong_Kong/430498/2019|2019           52.36%    passed     30.93%
+ 138  EPI1605096|B/Hong_Kong/430651/2019|2019           52.57%    passed     37.09%
+ 139  EPI1605093|B/Hong_Kong/430401/2019|2019           54.43%    passed     30.04%
+ 140  EPI1605094|B/Hong_Kong/430431/2019|2019           52.73%    passed     34.63%
+ 141  EPI1605091|B/Hong_Kong/430074/2019|2019           53.00%    passed     30.47%
+ 142  EPI1605092|B/Hong_Kong/430279/2019|2019           52.57%    passed     40.23%
+ 143  EPI1605105|B/Hong_Kong/432583/2019|2019           52.36%    passed     33.77%
+ 144  EPI1605106|B/Hong_Kong/432594/2019|2019           52.04%    passed     45.05%
+ 145  EPI1605103|B/Hong_Kong/432440/2019|2019           52.36%    passed     32.95%
+ 146  EPI1605104|B/Hong_Kong/432472/2019|2019           53.05%    passed     36.15%
+ 147  EPI1605101|B/Hong_Kong/431921/2019|2019           54.75%    passed     27.66%
+ 148  EPI1605102|B/Hong_Kong/431946/2019|2019           52.73%    passed     37.47%
+ 149  EPI1605099|B/Hong_Kong/431390/2019|2019           52.68%    passed     40.92%
+ 150  EPI1605100|B/Hong_Kong/431797/2019|2019           52.79%    passed     36.22%
+ 151  EPI1605113|B/Hong_Kong/428284/2019|2019           51.94%    passed     36.80%
+ 152  EPI4005482|B/Hong_Kong/21/2025|2025                7.21%    passed     99.73%
+ 153  EPI1605114|B/Hong_Kong/428285/2019|2019           53.53%    passed     39.82%
+ 154  EPI1605111|B/Hong_Kong/427871/2019|2019           52.52%    passed     32.32%
+ 155  EPI1605112|B/Hong_Kong/428196/2019|2019           52.47%    passed     36.55%
+ 156  EPI1605109|B/Hong_Kong/433316/2019|2019           52.57%    passed     37.09%
+ 157  EPI1605110|B/Hong_Kong/427785/2019|2019           52.47%    passed     35.01%
+ 158  EPI1605107|B/Hong_Kong/433220/2019|2019           52.31%    passed     37.17%
+ 159  EPI1605108|B/Hong_Kong/433294/2019|2019           54.69%    passed     26.87%
+ 160  EPI1605117|B/Hong_Kong/428506/2019|2019           53.05%    passed     32.62%
+ 161  EPI1605118|B/Hong_Kong/428651/2019|2019           63.61%    failed      4.13%
+ 162  EPI1605115|B/Hong_Kong/428307/2019|2019           51.19%    passed     32.25%
+ 163  EPI1605116|B/Hong_Kong/428349/2019|2019           53.10%    passed     35.14%
+ 164  EPI383274|B/Hong_Kong/2561/2012|2012              56.29%    passed     26.83%
+ 165  EPI383275|B/Hong_Kong/3496/2012|2012              56.02%    passed     43.65%
+ 166  EPI904304|B/Hong_Kong/3534/2012|2012               6.74%    passed     99.53%
+ 167  EPI904303|B/Hong_Kong/3508/2012|2012               6.74%    passed     99.75%
+ 168  EPI383293|B/Hong_Kong/3501/2012|2012              54.43%    passed     21.15%
+ 169  EPI904302|B/Hong_Kong/3501/2012|2012               6.74%    passed     99.96%
+ 170  EPI383294|B/Hong_Kong/3508/2012|2012              55.01%    passed     24.62%
+ 171  EPI904301|B/Hong_Kong/3496/2012|2012               6.74%    passed     98.10%
+ 172  EPI383292|B/Hong_Kong/3507/2012|2012              57.03%    passed     34.79%
+ 173  EPI383296|B/Hong_Kong/3514/2012|2012              56.60%    passed     38.09%
+ 174  EPI383295|B/Hong_Kong/3509/2012|2012              56.66%    passed     27.08%
+ 175  EPI383298|B/Hong_Kong/3534/2012|2012              55.23%    passed     27.42%
+ 176  EPI904305|B/Hong_Kong/3546/2012|2012               6.74%    passed     96.66%
+ 177  EPI383297|B/Hong_Kong/3525/2012|2012              57.29%    passed     40.11%
+ 178  EPI383300|B/Hong_Kong/3546/2012|2012              56.55%    passed     24.48%
+ 179  EPI383299|B/Hong_Kong/3540/2012|2012              56.07%    passed     32.33%
+ 180  EPI383301|B/Hong_Kong/3553/2012|2012              55.92%    passed     27.96%
+ 181  EPI1736410|B/Hong_Kong/574/2019|2019               2.02%    passed     94.12%
+ 182  EPI1843731|B/Hong_Kong/28/2020|2020                7.21%    passed     99.77%
+ 183  EPI1843733|B/Hong_Kong/29/2020|2020                7.21%    passed     98.32%
+ 184  EPI1843727|B/Hong_Kong/26/2020|2020                7.21%    passed     99.11%
+ 185  EPI1843729|B/Hong_Kong/27/2020|2020                7.21%    passed     99.02%
+ 186  EPI1843725|B/Hong_Kong/24/2020|2020                7.21%    passed     98.47%
+ 187  EPI1843759|B/Hong_Kong/34/2020|2020                7.21%    passed     99.80%
+ 188  EPI1843755|B/Hong_Kong/31/2020|2020                7.21%    passed     97.81%
+ 189  EPI1843757|B/Hong_Kong/33/2020|2020                7.21%    passed     98.47%
+ 190  EPI1843753|B/Hong_Kong/25/2020|2020                7.21%    passed     99.77%
+ 191  EPI1843743|B/Hong_Kong/38/2020|2020                7.21%    passed     99.19%
+ 192  EPI1843739|B/Hong_Kong/35/2020|2020                7.21%    passed     99.11%
+ 193  EPI1843741|B/Hong_Kong/36/2020|2020                7.21%    passed     99.11%
+ 194  EPI1843735|B/Hong_Kong/30/2020|2020                7.21%    passed     99.77%
+ 195  EPI1843737|B/Hong_Kong/32/2020|2020                7.27%    passed     98.67%
+ 196  EPI904448|B/Hong_Kong/3608/2012|2012               6.74%    passed     99.75%
+ 197  EPI904447|B/Hong_Kong/6/2013|2013                  6.74%    passed     99.87%
+ 198  EPI3822691|B/Hong_Kong/5489/2024|2024              2.02%    passed     77.63%
+ 199  EPI3822664|B/Hong_Kong/1648/2024|2024              2.02%    passed     93.48%
+ 200  EPI3822672|B/Hong_Kong/4465/2024|2024              2.02%    passed     81.94%
+ 201  EPI3610245|B/Hong_Kong/218/2024|2024               7.21%    passed     99.74%
+ 202  EPI1272136|B/Hong_Kong/1301/2018|2018              1.86%    passed     82.31%
+ 203  EPI4244802|B/Hong_Kong/72/2025|2025                7.21%    passed     99.74%
+ 204  EPI4244725|B/Hong_Kong/63/2025|2025                7.21%    passed     99.60%
+ 205  EPI4244717|B/Hong_Kong/46/2025|2025                7.21%    passed     99.21%
+ 206  EPI1272806|B/Hong_Kong/1360/2018|2018              7.06%    passed     99.28%
+ 207  EPI1272792|B/Hong_Kong/1298/2018|2018              7.06%    passed     99.63%
+ 208  EPI1272794|B/Hong_Kong/1320/2018|2018              6.74%    passed     99.87%
+ 209  EPI4774644|B/Hong_Kong/192/2025|2025               7.21%    passed     97.05%
+ 210  EPI1272808|B/Hong_Kong/1361/2018|2018              7.06%    passed     99.28%
+ 211  EPI1478567|B/HK/32/2019|2019                       7.21%    passed     98.14%
+ 212  EPI1478569|B/HK/34/2019|2019                       7.21%    passed     98.14%
+ 213  EPI1478568|B/HK/33/2019|2019                       7.21%    passed     98.14%
+ 214  EPI1478575|B/HK/39/2019|2019                       7.21%    passed     97.58%
+ 215  EPI1478574|B/HK/38/2019|2019                       7.21%    passed     98.14%
+ 216  EPI1478577|B/HK/42/2019|2019                       7.21%    passed     97.64%
+ 217  EPI1478576|B/HK/40/2019|2019                       7.21%    passed     98.82%
+ 218  EPI1478571|B/HK/36/2019|2019                       6.74%    passed     99.65%
+ 219  EPI1478570|B/HK/35/2019|2019                       7.21%    passed     97.64%
+ 220  EPI1478573|B/HK/41/2019|2019                       7.21%    passed     98.82%
+ 221  EPI1478572|B/HK/37/2019|2019                       7.21%    passed     97.64%
+ 222  EPI1478583|B/HK/48/2019|2019                       7.21%    passed     98.14%
+ 223  EPI1353565|B/HK/1393/2018|2018                     7.06%    passed     99.28%
+ 224  EPI1478582|B/HK/47/2019|2019                       7.21%    passed     98.82%
+ 225  EPI2156966|B/Hong_Kong/4/2022|2022                 2.02%    passed     84.94%
+ 226  EPI1478585|B/HK/50/2019|2019                       7.21%    passed     98.82%
+ 227  EPI1353567|B/HK/1397/2018|2018                     7.06%    passed     99.63%
+ 228  EPI1478584|B/HK/49/2019|2019                       7.21%    passed     97.64%
+ 229  EPI1353566|B/HK/1395/2018|2018                     7.06%    passed     99.63%
+ 230  EPI1478579|B/HK/44/2019|2019                       7.21%    passed     99.11%
+ 231  EPI1478578|B/HK/43/2019|2019                       7.21%    passed     98.82%
+ 232  EPI1478581|B/HK/46/2019|2019                       7.21%    passed     98.82%
+ 233  EPI1478580|B/HK/45/2019|2019                       7.21%    passed     98.14%
+ 234  EPI1478591|B/HK/67/2019|2019                       7.21%    passed     97.64%
+ 235  EPI1478590|B/HK/66/2019|2019                       7.21%    passed     97.64%
+ 236  EPI1478593|B/HK/73/2019|2019                       7.21%    passed     97.64%
+ 237  EPI1478592|B/HK/68/2019|2019                       7.21%    passed     97.75%
+ 238  EPI1478587|B/HK/54/2019|2019                       6.74%    passed     98.11%
+ 239  EPI1353569|B/HK/1400/2018|2018                     7.06%    passed     99.28%
+ 240  EPI1478586|B/HK/51/2019|2019                       7.21%    passed     98.47%
+ 241  EPI1353568|B/HK/1398/2018|2018                     7.06%    passed     99.28%
+ 242  EPI1478589|B/HK/65/2019|2019                       7.21%    passed     98.60%
+ 243  EPI1353571|B/HK/1412/2018|2018                     7.06%    passed     99.71%
+ 244  EPI1478588|B/HK/60/2019|2019                       7.21%    passed     98.14%
+ 245  EPI1353570|B/HK/1408/2018|2018                     7.06%    passed     99.63%
+ 246  EPI1478595|B/HK/87/2019|2019                       7.21%    passed     97.64%
+ 247  EPI1478594|B/HK/78/2019|2019                       7.21%    passed     98.82%
+ 248  EPI1478597|B/HK/114/2019|2019                      7.21%    passed     98.37%
+ 249  EPI1478596|B/HK/91/2019|2019                       7.21%    passed     97.64%
+ 250  EPI346736|B/Hong_Kong/591/2011|2011                6.74%    passed     99.08%
+ 251  EPI346740|B/Hong_Kong/599/2011|2011                6.74%    passed     99.50%
+ 252  EPI346738|B/Hong_Kong/591/2011|2011                6.74%    passed     99.16%
+ 253  EPI2928823|B/Hong_Kong/70/2023|2023                2.02%    passed     89.81%
+ 254  EPI2928765|B/Hong_Kong/65/2023|2023                2.02%    passed     84.92%
+ 255  EPI2929106|B/Hong_Kong/76/2023|2023                2.02%    passed     92.16%
+ 256  EPI2929050|B/Hong_Kong/61/2023|2023                2.02%    passed     88.82%
+ 257  EPI2929009|B/Hong_Kong/79/2023|2023                2.02%    passed     89.29%
+ 258  EPI2585167|B/HK/12/2023|2023                       7.21%    passed     99.61%
+ 259  EPI3822788|B/Hong_Kong/3116/2024|2024              2.02%    passed     81.94%
+ 260  EPI3822742|B/Hong_Kong/3701/2024|2024              2.02%    passed     78.72%
+ 261  EPI3822750|B/Hong_Kong/6026/2024|2024              2.12%    passed     74.34%
+ 262  EPI3822758|B/Hong_Kong/0905/2024|2024              2.02%    passed     84.92%
+ 263  EPI3822734|B/Hong_Kong/6650/2024|2024              2.02%    passed     63.83%
+ 264  EPI3822711|B/Hong_Kong/0390/2024|2024              2.02%    passed     63.83%
+ 265  EPI908539|B/Hong_Kong/07/2017|2017                 1.54%    passed     82.68%
+ 266  EPI908547|B/Hong_Kong/21/2017|2017                 1.54%    passed     79.94%
+ 267  EPI3822801|B/Hong_Kong/4224/2024|2024              2.02%    passed     89.81%
+ 268  EPI1124482|B/Hong_Kong/729/2017|2017               1.54%    passed     80.87%
+ 269  EPI1124490|B/Hong_Kong/727/2017|2017               1.54%    passed     87.53%
+ 270  EPI1124498|B/Hong_Kong/718/2017|2017               1.54%    passed     83.01%
+ 271  EPI1124474|B/Hong_Kong/739/2017|2017               1.54%    passed     81.60%
+ 272  EPI1124706|B/Hong_Kong/714/2017|2017               1.54%    passed     82.01%
+ 273  EPI1124714|B/Hong_Kong/718/2017|2017               1.54%    passed     83.01%
+ 274  EPI2972945|B/Hong_Kong/VB23254495/2023|2023        7.21%    passed     99.22%
+ 275  EPI1124721|B/Hong_Kong/714/2017|2017               1.54%    passed     82.01%
+ 276  EPI2972944|B/Hong_Kong/VB23250070/2023|2023        7.21%    passed     99.76%
+ 277  EPI2972943|B/Hong_Kong/VB23243348/2023|2023        7.21%    passed     99.79%
+ 278  EPI2972942|B/Hong_Kong/VB23237534/2023|2023        7.21%    passed     99.22%
+ 279  EPI2972940|B/Hong_Kong/VB23168859/2023|2023        7.21%    passed     99.70%
+ 280  EPI2972939|B/Hong_Kong/22/2023|2023                7.21%    passed     99.79%
+ 281  EPI2972938|B/Hong_Kong/21/2023|2023                7.21%    passed     99.79%
+ 282  EPI2972937|B/Hong_Kong/20/2023|2023                7.21%    passed     99.47%
+ 283  EPI2972936|B/Hong_Kong/VB23220384/2023|2023        7.21%    passed     99.79%
+ 284  EPI2972935|B/Hong_Kong/VB23219405/2023|2023        7.21%    passed     99.77%
+ 285  EPI2972934|B/Hong_Kong/VB23213929/2023|2023        7.21%    passed     99.41%
+ 286  EPI2972933|B/Hong_Kong/VB23213415/2023|2023        7.21%    passed     99.85%
+ 287  EPI2972932|B/Hong_Kong/VB23211467/2023|2023        7.21%    passed     99.79%
+ 288  EPI2972931|B/Hong_Kong/VB23208641/2023|2023        7.21%    passed     99.76%
+ 289  EPI2972930|B/Hong_Kong/VB23202880/2023|2023        7.21%    passed     99.61%
+ 290  EPI2972929|B/Hong_Kong/VB23201644/2023|2023        7.21%    passed     99.75%
+ 291  EPI2972928|B/Hong_Kong/VB23185815/2023|2023        7.21%    passed     99.79%
+ 292  EPI4740549|B/Hong_Kong/190/2025|2025               7.21%    passed     96.02%
+ 293  EPI540584|B/Hong_Kong/3343/2014|2014               6.79%    passed     99.86%
+ 294  EPI1386706|B/Hong_Kong/1400/2018|2018              1.86%    passed     81.94%
+ 295  EPI1386698|B/Hong_Kong/1408/2018|2018              1.86%    passed     82.49%
+ 296  EPI1386714|B/Hong_Kong/1398/2018|2018              1.86%    passed     81.94%
+ 297  EPI2585186|B/HK/13/2023|2023                       7.21%    passed     99.37%
+ 298  EPI2929481|B/Hong_Kong/72/2023|2023                2.02%    passed     93.57%
+ 299  EPI2929423|B/Hong_Kong/67/2023|2023                2.07%    passed     88.91%
+ 300  EPI2929392|B/Hong_Kong/63/2023|2023                2.02%    passed     90.05%
+ 301  EPI4642311|B/Hong_Kong/158/2025|2025               7.21%    passed     99.28%
+ 302  EPI4642366|B/Hong_Kong/164/2025|2025               7.21%    passed     96.81%
+ 303  EPI4642351|B/Hong_Kong/161/2025|2025               7.21%    passed     96.41%
+ 304  EPI4642141|B/Hong_Kong/115/2025|2025               7.21%    passed     99.63%
+ 305  EPI4642189|B/Hong_Kong/127/2025|2025               7.27%    passed     99.91%
+ 306  EPI2929580|B/Hong_Kong/74/2023|2023                2.02%    passed     95.45%
+ 307  EPI4642173|B/Hong_Kong/123/2025|2025               7.21%    passed     97.82%
+ 308  EPI4642197|B/Hong_Kong/128/2025|2025               7.21%    passed     97.84%
+ 309  EPI2929520|B/Hong_Kong/60/2023|2023                2.02%    passed     89.81%
+ 310  EPI4642242|B/Hong_Kong/155/2025|2025               7.21%    passed     98.05%
+ 311  EPI4642097|B/Hong_Kong/96/2025|2025                7.21%    passed     97.84%
+ 312  EPI4642083|B/Hong_Kong/95/2025|2025                7.21%    passed     97.84%
+ 313  EPI4642109|B/Hong_Kong/110/2025|2025               7.21%    passed     97.47%
+ 314  EPI2033772|B/HK/1/2021|2021                        7.21%    passed     99.87%
+ 315  EPI2033773|B/HK/1/2022|2022                        7.21%    passed     99.75%
+ 316  EPI4642749|B/Hong_Kong/183/2025|2025               7.21%    passed     97.84%
+ 317  EPI4642679|B/Hong_Kong/179/2025|2025               7.21%    passed     99.57%
+ 318  EPI4642718|B/Hong_Kong/182/2025|2025               7.21%    passed     96.41%
+ 319  EPI4642540|B/Hong_Kong/172/2025|2025               7.21%    passed     96.81%
+ 320  EPI4642609|B/Hong_Kong/177/2025|2025               7.21%    passed     97.84%
+ 321  EPI4642413|B/Hong_Kong/167/2025|2025               7.21%    passed     99.85%
+ 322  EPI4642453|B/Hong_Kong/171/2025|2025               7.21%    passed     98.05%
+ 323  EPI2318959|B/HongKong/9/2022|2022                  7.21%    passed     99.30%
+ 324  EPI2318922|B/HongKong/7/2022|2022                  7.21%    passed     99.63%
+ 325  EPI1312916|B/Hong_Kong/1362/2018|2018              1.86%    passed     81.94%
+ 326  EPI2122285|B/HK/2/2022|2022                        7.21%    passed     99.76%
+ 327  EPI2122282|B/HK/3/2022|2022                        7.21%    passed     99.85%
+ 328  EPI1356246|B/Hong_Kong/1395/2018|2018              7.06%    passed     99.63%
+ 329  EPI1356248|B/Hong_Kong/1397/2018|2018              7.06%    passed     99.63%
+ 330  EPI1356254|B/Hong_Kong/1404/2018|2018              6.74%    passed     99.85%
+ 331  EPI1356252|B/Hong_Kong/1403/2018|2018              6.74%    passed     99.30%
+ 332  EPI2745308|B/HongKong/15/2023|2023                 7.21%    passed     99.53%
+ 333  EPI2745306|B/HongKong/6952/2023|2023               7.21%    passed     99.79%
+ 334  EPI2745307|B/HongKong/2394/2023|2023               7.21%    passed     99.79%
+ 335  EPI2745305|B/HongKong/8442/2023|2023               7.21%    passed     99.81%
+ 336  EPI1252291|B/Hong_Kong/179/2018|2018               7.21%    passed     99.86%
+ 337  EPI1252287|B/Hong_Kong/917/2018|2018               7.06%    passed     99.28%
+ 338  EPI1252289|B/Hong_Kong/182/2018|2018               7.21%    passed     99.86%
+ 339  EPI1252305|B/Hong_Kong/1281/2018|2018              6.74%    passed     99.77%
+ 340  EPI1252313|B/Hong_Kong/1248/2018|2018              6.74%    passed     99.84%
+ 341  EPI825571|B/Hong_Kong/1149/2016|2016               1.54%    passed     85.83%
+ 342  EPI825563|B/Hong_Kong/87/2016|2016                 1.54%    passed     80.87%
+ 343  EPI825587|B/Hong_Kong/1156/2016|2016               1.54%    passed     85.50%
+ 344  EPI825579|B/Hong_Kong/1154/2016|2016               1.54%    passed     85.97%
+ 345  EPI1130667|B/Hong_Kong/739/2017|2017               1.54%    passed     81.60%
+ 346  EPI1130673|B/Hong_Kong/740/2017|2017               1.54%    passed     83.01%
+ 347  EPI2823726|B/Hong_Kong/CUHK001/2019|2019           2.07%    passed     90.31%
+ 348  EPI271551|B/Hong_Kong/259/2010|2010                6.79%    passed     99.51%
+ 349  EPI604403|B/Hong_Kong/259/2010|2010                6.95%    passed     99.49%
+ 350  EPI2837981|B/Hong_Kong/CUHK010/2019|2019           2.02%    passed     93.77%
+ 351  EPI2837997|B/Hong_Kong/CUHK013/2019|2019           0.32%    passed     82.28%
+ 352  EPI2838005|B/Hong_Kong/CUHK015/2019|2019           2.02%    passed     92.83%
+ 353  EPI2837949|B/Hong_Kong/CUHK005/2019|2019           2.02%    passed     93.77%
+ 354  EPI2837957|B/Hong_Kong/CUHK006/2019|2019           0.32%    passed     79.28%
+ 355  EPI2837965|B/Hong_Kong/CUHK008/2019|2019           2.02%    passed     94.30%
+ 356  EPI2837973|B/Hong_Kong/CUHK009/2019|2019           2.02%    passed     94.30%
+ 357  EPI2837933|B/Hong_Kong/CUHK002/2019|2019           2.02%    passed     92.64%
+ 358  EPI2837941|B/Hong_Kong/CUHK003/2019|2019           2.02%    passed     89.06%
+ 359  EPI271869|B/Hong_Kong/264/2010|2010                6.74%    passed     99.47%
+ 360  EPI604476|B/Hong_Kong/2200/2010|2010               6.90%    passed     98.88%
+ 361  EPI271871|B/Hong_Kong/270/2010|2010                6.74%    passed     99.23%
+ 362  EPI2838109|B/Hong_Kong/CUHK036/2019|2019           2.02%    passed     94.30%
+ 363  EPI2838077|B/Hong_Kong/CUHK027/2019|2019           2.02%    passed     92.64%
+ 364  EPI2838085|B/Hong_Kong/CUHK028/2019|2019           2.02%    passed     92.64%
+ 365  EPI2838093|B/Hong_Kong/CUHK029/2019|2019           2.02%    passed     92.84%
+ 366  EPI2838101|B/Hong_Kong/CUHK035/2019|2019           2.02%    passed     92.84%
+ 367  EPI2838045|B/Hong_Kong/CUHK023/2019|2019           2.02%    passed     95.50%
+ 368  EPI2838053|B/Hong_Kong/CUHK024/2019|2019           2.02%    passed     94.30%
+ 369  EPI2838061|B/Hong_Kong/CUHK025/2019|2019           2.02%    passed     94.30%
+ 370  EPI2838069|B/Hong_Kong/CUHK026/2019|2019           2.02%    passed     94.30%
+ 371  EPI2838013|B/Hong_Kong/CUHK018/2019|2019           2.02%    passed     92.28%
+ 372  EPI2838021|B/Hong_Kong/CUHK020/2019|2019           2.02%    passed     92.84%
+ 373  EPI2838029|B/Hong_Kong/CUHK021/2019|2019           2.02%    passed     93.96%
+ 374  EPI2838037|B/Hong_Kong/CUHK022/2019|2019           2.02%    passed     92.84%
+ 375  EPI699503|B/Hong_Kong/62/2016|2016                 6.74%    passed     99.94%
+ 376  EPI699511|B/Hong_Kong/57/2016|2016                 6.84%    passed     99.87%
+ 377  EPI699509|B/Hong_Kong/58/2016|2016                 6.74%    passed     99.92%
+ 378  EPI2757887|B/Hong_Kong/7574/2023|2023              2.07%    passed     84.78%
+ 379  EPI325104|B/Hong_Kong/590/2011|2011                6.74%    passed     99.42%
+ 380  EPI2757903|B/Hong_Kong/7592/2023|2023              2.02%    passed     81.30%
+ 381  EPI2757895|B/Hong_Kong/7720/2023|2023              2.02%    passed     86.99%
+ 382  EPI1040343|B/Hong_Kong/286/2017|2017               7.21%    passed     99.81%
+ 383  EPI1040345|B/Hong_Kong/296/2017|2017               7.21%    passed     99.58%
+ 384  EPI1393951|B/Hong_Kong/1393/2018|2018              7.06%    passed     99.28%
+ 385  EPI1393949|B/Hong_Kong/1412/2018|2018              7.06%    passed     99.61%
+ 386  EPI4607022|B/Hong_Kong/RFL-204/2025|2025           0.48%    passed     89.16%
+ 387  EPI326165|B/Hong_Kong/591/2011|2011                6.74%    passed     99.16%
+ 388  EPI4607014|B/Hong_Kong/RFL-203/2025|2025           0.48%    passed     94.30%
+ 389  EPI604900|B/Hong_Kong/2206/2010|2010               6.90%    passed     99.21%
+ 390  EPI2212289|B/Hong_Kong/4/2022|2022                 2.02%    passed     84.94%
+ 391  EPI3626916|B/Hong_Kong/219/2024|2024               7.21%    passed     99.76%
+ 392  EPI605268|B/Hong_Kong/1863/2010|2010               6.90%    passed     99.18%
+ 393  EPI301996|B/Hong_Kong/2206/2010|2010               6.74%    passed     99.31%
+ 394  EPI4606327|B/Hong_Kong/166/2025|2025               7.21%    passed     96.81%
+ 395  EPI4606335|B/Hong_Kong/165/2025|2025               7.21%    passed     99.66%
+ 396  EPI4606311|B/Hong_Kong/169/2025|2025               7.21%    passed     96.81%
+ 397  EPI4606319|B/Hong_Kong/168/2025|2025               7.21%    passed     97.84%
+ 398  EPI4606359|B/Hong_Kong/157/2025|2025               7.21%    passed     97.84%
+ 399  EPI4606367|B/Hong_Kong/154/2025|2025               7.21%    passed     99.57%
+ 400  EPI4606343|B/Hong_Kong/162/2025|2025               7.21%    passed     97.84%
+ 401  EPI4606351|B/Hong_Kong/159/2025|2025               7.21%    passed     96.81%
+ 402  EPI1138037|B/Hong_Kong/286/2017|2017               2.12%    passed     76.62%
+ 403  EPI1138043|B/Hong_Kong/286/2017|2017               2.07%    passed     77.79%
+ 404  EPI3650069|B/Hong_Kong/223/2024|2024               7.21%    passed     99.63%
+ 405  EPI3650029|B/Hong_Kong/222/2024|2024               7.21%    passed     99.78%
+ 406  EPI2290444|B/HK/6/2022|2022                        7.21%    passed     99.63%
+ 407  EPI302445|B/HONG_KONG/2225/2010|2010               0.42%    passed     90.18%
+ 408  EPI2290446|B/HK/8/2022|2022                        7.21%    passed     99.30%
+ 409  EPI2290445|B/HK/9/2022|2022                        7.27%    passed     98.95%
+ 410  EPI302477|B/HONG_KONG/2226/2010|2010               0.37%    passed     85.89%
+ 411  EPI492589|B/Hong_Kong/223/2013|2013                6.74%    passed     99.98%
+ 412  EPI3187730|B/Hong_Kong/61/2023|2023                2.02%    passed     88.82%
+ 413  EPI492592|B/Hong_Kong/267/2013|2013                6.74%    passed     99.64%
+ 414  EPI605596|B/Hong_Kong/2207/2010|2010               6.90%    passed     98.22%
+ 415  EPI2360901|B/Hong_Kong/6/2022|2022                 2.02%    passed     83.61%
+ 416  EPI2360909|B/Hong_Kong/8/2022|2022                 2.02%    passed     77.47%
+ 417  EPI737960|B/Hong_Kong/49/2016|2016                 1.54%    passed     88.37%
+ 418  EPI737952|B/Hong_Kong/48/2016|2016                 1.54%    passed     85.97%
+ 419  EPI737976|B/Hong_Kong/63/2016|2016                 1.54%    passed     83.15%
+ 420  EPI737968|B/Hong_Kong/51/2016|2016                 1.54%    passed     85.83%
+ 421  EPI3667544|B/Hong_Kong/228/2024|2024               7.21%    passed     98.07%
+ 422  EPI3667504|B/Hong_Kong/224/2024|2024               7.21%    passed     99.76%
+ 423  EPI1670300|B/Hong_Kong/991/2019|2019               7.21%    passed     98.70%
+ 424  EPI1670302|B/Hong_Kong/992/2019|2019               7.21%    passed     98.47%
+ 425  EPI1670308|B/Hong_Kong/998/2019|2019               7.21%    passed     96.96%
+ 426  EPI630554|B/Hong_Kong/1183/2015|2015               6.74%    passed     99.94%
+ 427  EPI1670304|B/Hong_Kong/996/2019|2019               7.21%    passed     99.94%
+ 428  EPI1670306|B/Hong_Kong/997/2019|2019               7.21%    passed     99.28%
+ 429  EPI630562|B/Hong_Kong/1337/2015|2015               6.74%    passed     98.48%
+ 430  EPI4608306|B/Hong_Kong/RFL-219/2025|2025           0.58%    passed     92.91%
+ 431  EPI352432|B/Hong_Kong/1153/2011|2011               6.74%    passed     99.08%
+ 432  EPI352431|B/Hong_Kong/1129/2011|2011               6.74%    passed     98.89%
+ 433  EPI4851335|B/Hong_Kong/RF-291/2025|2025            0.53%    passed     65.01%
+ 434  EPI4851325|B/Hong_Kong/RF-290/2025|2025            1.91%    passed     62.27%
+ 435  EPI4851349|B/Hong_Kong/RF-325/2025|2025            2.44%    passed     62.27%
+ 436  EPI4851341|B/Hong_Kong/RF-316/2025|2025            1.86%    passed     83.21%
+ 437  EPI3187772|B/Hong_Kong/74/2023|2023                2.02%    passed     95.45%
+ 438  EPI4851314|B/Hong_Kong/RF-289/2025|2025            2.12%    passed     58.70%
+ 439  EPI4673535|B/Hong_Kong/186/2025|2025               7.21%    passed     97.84%
+ 440  EPI3187892|B/Hong_Kong/72/2023|2023                2.02%    passed     93.57%
+ 441  EPI1585650|B/Hong_Kong/738/2019|2019               2.02%    passed     94.30%
+ 442  EPI3187914|B/Hong_Kong/60/2023|2023                2.02%    passed     89.81%
+ 443  EPI1585698|B/Hong_Kong/743/2019|2019               2.02%    passed     92.64%
+ 444  EPI1585690|B/Hong_Kong/744/2019|2019               2.02%    passed     94.12%
+ 445  EPI1585713|B/Hong_Kong/736/2019|2019               2.02%    passed     94.14%
+ 446  EPI1585706|B/Hong_Kong/737/2019|2019               2.02%    passed     92.83%
+ 447  EPI1585666|B/Hong_Kong/742/2019|2019               2.02%    passed     94.30%
+ 448  EPI1585658|B/Hong_Kong/733/2019|2019               2.02%    passed     92.45%
+ 449  EPI1585682|B/Hong_Kong/746/2019|2019               2.02%    passed     94.30%
+ 450  EPI1585674|B/Hong_Kong/741/2019|2019               2.02%    passed     94.12%
+ 451  EPI1585721|B/Hong_Kong/734/2019|2019               2.02%    passed     92.78%
+ 452  EPI4608282|B/Hong_Kong/RFL-209/2025|2025           0.48%    passed     77.88%
+ 453  EPI391321|B/Hong_Kong/3553/2012|2012               6.74%    passed     99.90%
+ 454  EPI1735068|B/HK/17/2020|2020                       7.21%    passed     98.57%
+ 455  EPI1735069|B/HK/21/2020|2020                       7.21%    passed     96.40%
+ 456  EPI2724943|B/HK/15/2023|2023                       7.21%    passed     99.22%
+ 457  EPI2724942|B/HK/16/2023|2023                       7.21%    passed     99.66%
+ 458  EPI1735102|B/HK/26/2020|2020                       7.21%    passed     99.11%
+ 459  EPI1735103|B/HK/27/2020|2020                       7.21%    passed     99.02%
+ 460  EPI1735098|B/HK/24/2020|2020                       7.21%    passed     98.86%
+ 461  EPI1735100|B/HK/25/2020|2020                       7.21%    passed     99.77%
+ 462  EPI305393|B/Hong_Kong/2200/2010|2010               6.74%    passed     98.83%
+ 463  EPI305395|B/Hong_Kong/2207/2010|2010               6.74%    passed     98.63%
+ 464  EPI1735113|B/HK/33/2020|2020                       7.21%    passed     98.47%
+ 465  EPI1735110|B/HK/29/2020|2020                       7.21%    passed     98.32%
+ 466  EPI1568109|B/HK/216/2019|2019                      7.21%    passed     97.64%
+ 467  EPI1735112|B/HK/30/2020|2020                       7.21%    passed     99.77%
+ 468  EPI1568108|B/HK/416/2019|2019                      7.21%    passed     97.64%
+ 469  EPI1735107|B/HK/32/2020|2020                       7.21%    passed     98.82%
+ 470  EPI2724923|B/HK/14/2023|2023                       7.27%    passed     99.27%
+ 471  EPI1735111|B/HK/28/2020|2020                       7.21%    passed     99.77%
+ 472  EPI1735105|B/HK/34/2020|2020                       7.21%    passed     99.80%
+ 473  EPI1735106|B/HK/31/2020|2020                       7.21%    passed     97.81%
+ 474  EPI1568115|B/HK/474/2019|2019                      7.21%    passed     97.79%
+ 475  EPI1568114|B/HK/355/2019|2019                      7.21%    passed     97.64%
+ 476  EPI1568117|B/HK/465/2019|2019                      7.21%    passed     98.82%
+ 477  EPI1568116|B/HK/455/2019|2019                      7.21%    passed     98.14%
+ 478  EPI1568111|B/HK/218/2019|2019                      7.21%    passed     99.51%
+ 479  EPI1568110|B/HK/217/2019|2019                      7.21%    passed     98.82%
+ 480  EPI1568113|B/HK/220/2019|2019                      7.21%    passed     97.64%
+ 481  EPI1568112|B/HK/222/2019|2019                      7.21%    passed     98.37%
+ 482  EPI1568123|B/HK/668/2019|2019                      7.21%    passed     98.67%
+ 483  EPI1568122|B/HK/502/2019|2019                      7.21%    passed     98.27%
+ 484  EPI1568125|B/HK/308/2019|2019                      7.21%    passed     97.64%
+ 485  EPI1568124|B/HK/174/2019|2019                      7.21%    passed     99.11%
+ 486  EPI1568119|B/HK/539/2019|2019                      7.21%    passed     98.14%
+ 487  EPI1568118|B/HK/473/2019|2019                      7.21%    passed     98.37%
+ 488  EPI1568121|B/HK/500/2019|2019                      7.21%    passed     98.47%
+ 489  EPI1568120|B/HK/490/2019|2019                      7.21%    passed     98.14%
+ 490  EPI1568130|B/HK/639/2019|2019                      7.21%    passed     98.70%
+ 491  EPI1568127|B/HK/338/2019|2019                      7.21%    passed     97.64%
+ 492  EPI1568126|B/HK/291/2019|2019                      7.21%    passed     98.47%
+ 493  EPI1568129|B/HK/564/2019|2019                      7.21%    passed     98.70%
+ 494  EPI1568128|B/HK/414/2019|2019                      7.21%    passed     98.82%
+ 495  EPI2724960|B/Hong_Kong/19/2023|2023                7.21%    passed     99.47%
+ 496  EPI2724959|B/HK/18/2023|2023                       7.21%    passed     99.47%
+ 497  EPI2724958|B/HK/17/2023|2023                       7.21%    passed     99.84%
+ 498  EPI1182265|B/Hong_Kong/1133/2017|2017              2.02%    passed     78.78%
+ 499  EPI1182273|B/Hong_Kong/1146/2017|2017              1.54%    passed     83.33%
+ 500  EPI1182280|B/Hong_Kong/1148/2017|2017              1.54%    passed     76.77%
+ 501  EPI1182337|B/Hong_Kong/1061/2017|2017              1.54%    passed     83.33%
+ 502  EPI1182343|B/Hong_Kong/1079/2017|2017              1.54%    passed     83.33%
+ 503  EPI1182350|B/Hong_Kong/1096/2017|2017              1.54%    passed     83.33%
+ 504  EPI1182357|B/Hong_Kong/1121/2017|2017              1.54%    passed     83.01%
+ 505  EPI632734|B/Hong_Kong/1198/2015|2015               6.74%    passed     99.56%
+ 506  EPI632763|B/Hong_Kong/1372/2015|2015               6.74%    passed     98.48%
+ 507  EPI392575|B/Hong_Kong/3496/2012|2012               6.79%    passed     98.93%
+ 508  EPI392579|B/Hong_Kong/3508/2012|2012               6.74%    passed     99.75%
+ 509  EPI392577|B/Hong_Kong/3501/2012|2012               6.79%    passed     99.91%
+ 510  EPI392583|B/Hong_Kong/3534/2012|2012               6.74%    passed     99.40%
+ 511  EPI392581|B/Hong_Kong/3514/2012|2012               6.74%    passed     98.52%
+ 512  EPI392585|B/Hong_Kong/3546/2012|2012               6.74%    passed     96.66%
+ 513  EPI4458543|B/Hong_Kong/HKU-250626-001/2025|2025    2.02%    passed     52.01%
+ 514  EPI463668|B/Hong_Kong/20/2013|2013                54.06%    passed     21.95%
+ 515  EPI838983|B/Hong_Kong/1545/2016|2016               1.54%    passed     85.97%
+ 516  EPI3361072|B/Hong_Kong/EPI0267/2023|2023           2.02%    passed     92.14%
+ 517  EPI3361080|B/Hong_Kong/EPI0427/2023|2023           2.02%    passed     84.94%
+ 518  EPI3361088|B/Hong_Kong/EPI0461/2024|2024           2.02%    passed     92.41%
+ 519  EPI838999|B/Hong_Kong/1547/2016|2016               1.54%    passed     88.05%
+ 520  EPI838991|B/Hong_Kong/1546/2016|2016               1.54%    passed     88.37%
+ 521  EPI1629578|B/HK/917/2019|2019                      7.21%    passed     97.64%
+ 522  EPI1629579|B/HK/927/2019|2019                      7.21%    passed     99.93%
+ 523  EPI1629584|B/HK/975/2019|2019                      7.21%    passed     98.14%
+ 524  EPI1629582|B/HK/974/2019|2019                      7.21%    passed     98.70%
+ 525  EPI1629583|B/HK/977/2019|2019                      7.21%    passed     99.98%
+ 526  EPI1629580|B/HK/928/2019|2019                      7.21%    passed     99.11%
+ 527  EPI1629581|B/HK/972/2019|2019                      7.21%    passed     98.33%
+ 528  EPI334692|B/Hong_Kong/762/2011|2011                6.74%    passed     99.18%
+ 529  EPI334690|B/Hong_Kong/599/2011|2011                6.74%    passed     99.50%
+ 530  EPI334700|B/Hong_Kong/767/2011|2011                6.74%    passed     99.18%
+ 531  EPI393618|B/Hong_Kong/3525/2012|2012               6.74%    passed     99.71%
+ 532  EPI3057459|B/Hong_Kong/70/2023|2023                2.02%    passed     89.81%
+ 533  EPI3057473|B/Hong_Kong/79/2023|2023                2.07%    passed     88.91%
+ 534  EPI3057497|B/Hong_Kong/63/2023|2023                2.02%    passed     90.05%
+ 535  EPI464737|B/Hong_Kong/20/2013|2013                 6.74%    passed     99.85%
+ 536  EPI3934998|B/HongKong/219/2024|2024                7.21%    passed     99.76%
+ 537  EPI2139283|B/Hong_Kong/3/2022|2022                 7.21%    passed     99.85%
+ 538  EPI2721640|B/HongKong/6952/2023|2023               7.21%    passed     99.79%
+ 539  EPI2721638|B/HongKong/8442/2023|2023               7.21%    passed     99.81%
+ 540  EPI278952|B/Hong_Kong/1863/2010|2010               6.74%    passed     99.41%
+ 541  EPI2446385|B/Hong_Kong/8/2022|2022                 2.02%    passed     77.47%
+ 542  EPI2721642|B/HongKong/2394/2023|2023               7.21%    passed     99.79%
+ 543  EPI4113092|B/Hong_Kong/EPI0911/2024|2024           7.21%    passed     99.38%
+ 544  EPI4113099|B/Hong_Kong/EPI1021/2025|2025           7.21%    passed     99.54%
+ 545  EPI2717521|B/Hong_Kong/16/2023|2023                2.02%    passed     80.67%
+ 546  EPI3570448|B/Hong_Kong/207/2024|2024               7.21%    passed     99.79%
+ 547  EPI279871|B/Hong_Kong/1889/2010|2010               6.74%    passed     99.23%
+ 548  EPI279869|B/Hong_Kong/1878/2010|2010               6.74%    passed     99.45%
+ 549  EPI4608338|B/Hong_Kong/RFL-229/2025|2025           0.37%    passed     91.88%
+ 550  EPI4608370|B/Hong_Kong/RFL-242/2025|2025           0.32%    passed     69.29%
+ 551  EPI4608362|B/Hong_Kong/RFL-241/2025|2025           0.32%    passed     94.33%
+ 552  EPI675814|B/Hong_Kong/1835/2015|2015               6.74%    passed     99.92%
+ 553  EPI280370|B/Hong_Kong/1863/2010|2010               6.79%    passed     99.52%
+ 554  EPI465918|B/Hong_Kong/74/2013|2013                 6.74%    passed     99.75%
+ 555  EPI431338|B/Hong_Kong/6/2013|2013                  6.74%    passed     99.87%
+ 556  EPI431334|B/Hong_Kong/3608/2012|2012               6.74%    passed     99.75%
+ 557  EPI3492189|B/Hong_Kong/199/2024|2024               7.21%    passed     98.80%
+ 558  EPI3590697|B/Hong_Kong/209/2024|2024               7.21%    passed     99.79%
+ 559  EPI1052656|B/Hong_Kong/269/2017|2017               2.02%    passed     78.78%
+ 560  EPI1052664|B/Hong_Kong/283/2017|2017               1.54%    passed     83.15%
+ 561  EPI1052672|B/Hong_Kong/286/2017|2017               2.02%    passed     78.87%
+ 562  EPI1052680|B/Hong_Kong/296/2017|2017               2.02%    passed     78.78%
+ 563  EPI1052688|B/Hong_Kong/348/2017|2017               1.54%    passed     80.61%
+ 564  EPI3590737|B/Hong_Kong/211/2024|2024               7.21%    passed     99.79%
+ 565  EPI1593207|B/Hong_Kong/574/2019|2019               2.02%    passed     94.12%
+ 566  EPI1053546|B/Hong_Kong/269/2017|2017               7.21%    passed     99.58%
+ 567  EPI1053548|B/Hong_Kong/286/2017|2017               7.21%    passed     99.81%
+ 568  EPI1593231|B/Hong_Kong/574/2019|2019               2.02%    passed     94.30%
+ 569  EPI433143|B/Hong_Kong/05/2013|2013                 6.74%    passed     99.87%
+ 570  EPI4915563|B/Hong_Kong/197/2025|2025               7.21%    passed     98.74%
+ 571  EPI500365|B/Hong_Kong/445/2013|2013                6.74%    passed     99.87%
+ 572  EPI500363|B/Hong_Kong/439/2013|2013                6.74%    passed     99.82%
+ 573  EPI1594729|B/Hong_Kong/402519/2019|2019           54.38%    passed     27.88%
+ 574  EPI1594731|B/Hong_Kong/413110/2019|2019           52.36%    passed     35.71%
+ 575  EPI1594730|B/Hong_Kong/402868/2019|2019           51.78%    passed     41.78%
+ 576  EPI1594737|B/Hong_Kong/413239/2019|2019            6.05%    passed     97.00%
+ 577  EPI1594736|B/Hong_Kong/410123/2019|2019           11.35%    passed     97.43%
+ 578  EPI1594739|B/Hong_Kong/414903/2019|2019            9.18%    passed     91.81%
+ 579  EPI1594738|B/Hong_Kong/414636/2019|2019           15.70%    passed     49.28%
+ 580  EPI1594733|B/Hong_Kong/427075/2019|2019           54.06%    passed     34.55%
+ 581  EPI1594732|B/Hong_Kong/420126/2019|2019           55.81%    passed     34.82%
+ 582  EPI1594735|B/Hong_Kong/410108/2019|2019           15.07%    passed     48.21%
+ 583  EPI1594734|B/Hong_Kong/453667/2018|2018            6.90%    passed     99.59%
+ 584  EPI1594745|B/Hong_Kong/417827/2019|2019            6.05%    passed     96.36%
+ 585  EPI1594744|B/Hong_Kong/417486/2019|2019            5.94%    passed     95.76%
+ 586  EPI1594747|B/Hong_Kong/424791/2019|2019           51.94%    passed     47.06%
+ 587  EPI1594746|B/Hong_Kong/420374/2019|2019            6.05%    passed     96.36%
+ 588  EPI1594741|B/Hong_Kong/414935/2019|2019            8.01%    passed     97.26%
+ 589  EPI1594740|B/Hong_Kong/414916/2019|2019           14.01%    passed     53.47%
+ 590  EPI1594743|B/Hong_Kong/416381/2019|2019            5.62%    passed     93.48%
+ 591  EPI1594742|B/Hong_Kong/416049/2019|2019            7.64%    passed     97.29%
+ 592  EPI1594753|B/Hong_Kong/426132/2019|2019           51.72%    passed     40.09%
+ 593  EPI1594752|B/Hong_Kong/425319/2019|2019           57.72%    passed     15.03%
+ 594  EPI1594755|B/Hong_Kong/426572/2019|2019           52.04%    passed     39.85%
+ 595  EPI1594754|B/Hong_Kong/426165/2019|2019           54.54%    passed     33.31%
+ 596  EPI1594749|B/Hong_Kong/425024/2019|2019           51.94%    passed     43.38%
+ 597  EPI1594748|B/Hong_Kong/424959/2019|2019           53.05%    passed     39.78%
+ 598  EPI1594751|B/Hong_Kong/425312/2019|2019           51.94%    passed     44.69%
+ 599  EPI1594750|B/Hong_Kong/425311/2019|2019           51.94%    passed     43.38%
+ 600  EPI1594761|B/Hong_Kong/410555/2016|2016            9.97%    passed     94.80%
+ 601  EPI1594760|B/Hong_Kong/427651/2019|2019           53.37%    passed     29.99%
+ 602  EPI1594757|B/Hong_Kong/427052/2019|2019           53.00%    passed     32.28%
+ 603  EPI1594756|B/Hong_Kong/426722/2019|2019           56.55%    passed     11.18%
+ 604  EPI1594759|B/Hong_Kong/427505/2019|2019           62.07%    passed      8.05%
+ 605  EPI1594758|B/Hong_Kong/427413/2019|2019           52.94%    passed     39.57%
+ 606  EPI3721472|B/Hong_Kong/230/2024|2024               7.21%    passed     99.70%
+ 607  EPI3466311|B/Hong_Kong/196/2024|2024               7.21%    passed     99.76%
+ 608  EPI2983273|B/HongKong/59/2023|2023                 7.21%    passed     99.68%
+ 609  EPI2983265|B/HongKong/71/2023|2023                 7.21%    passed     99.84%
+ 610  EPI2983241|B/HongKong/58/2023|2023                 7.27%    passed     99.83%
+ 611  EPI2983225|B/HongKong/68/2023|2023                 7.21%    passed     99.79%
+ 612  EPI2983217|B/HongKong/66/2023|2023                 7.27%    passed     99.73%
+ 613  EPI2983209|B/HongKong/75/2023|2023                 7.21%    passed     99.61%
+ 614  EPI2983168|B/HongKong/77/2023|2023                 7.21%    passed     99.87%
+ 615  EPI2983160|B/HongKong/73/2023|2023                 7.21%    passed     99.85%
+ 616  EPI2983152|B/HongKong/62/2023|2023                 7.21%    passed     99.79%
+ 617  EPI2983144|B/HongKong/64/2023|2023                 7.21%    passed     99.49%
+ 618  EPI4238103|B/Hong_Kong/30/2025|2025                7.32%    passed     98.30%
+ 619  EPI4238110|B/Hong_Kong/34/2025|2025                7.21%    passed     99.26%
+ 620  EPI3852253|B/Hong_Kong/3/2025|2025                 7.21%    passed     99.15%
+ 621  EPI1415324|B/HK/4/2019|2019                        7.21%    passed     99.53%
+ 622  EPI1415323|B/HK/1/2019|2019                        7.06%    passed     99.83%
+ 623  EPI1415330|B/HK/13/2019|2019                       7.21%    passed     99.11%
+ 624  EPI1415329|B/HK/10/2019|2019                       7.06%    passed     99.44%
+ 625  EPI1415332|B/HK/14/2019|2019                       7.06%    passed     99.44%
+ 626  EPI1415331|B/HK/16/2019|2019                       7.06%    passed     99.83%
+ 627  EPI1415326|B/HK/6/2019|2019                        7.21%    passed     98.14%
+ 628  EPI1415325|B/HK/5/2019|2019                        7.06%    passed     99.63%
+ 629  EPI1415328|B/HK/9/2019|2019                        7.21%    passed     98.14%
+ 630  EPI1415327|B/HK/7/2019|2019                        7.06%    passed     99.63%
+ 631  EPI1415338|B/HK/23/2019|2019                       7.21%    passed     96.65%
+ 632  EPI1415337|B/HK/21/2019|2019                       7.21%    passed     98.14%
+ 633  EPI1415340|B/HK/25/2019|2019                       7.21%    passed     97.64%
+ 634  EPI1415339|B/HK/24/2019|2019                       7.21%    passed     98.14%
+ 635  EPI1415334|B/HK/17/2019|2019                       7.06%    passed     99.63%
+ 636  EPI1415333|B/HK/15/2019|2019                       7.06%    passed     99.63%
+ 637  EPI1415336|B/HK/20/2019|2019                       7.06%    passed     99.44%
+ 638  EPI1415335|B/HK/19/2019|2019                       7.21%    passed     98.14%
+ 639  EPI1415342|B/HK/28/2019|2019                       7.21%    passed     98.67%
+ 640  EPI1415341|B/HK/27/2019|2019                       7.21%    passed     98.47%
+ 641  EPI1415344|B/HK/31/2019|2019                       7.21%    passed     98.37%
+ 642  EPI1415343|B/HK/29/2019|2019                       7.21%    passed     98.67%
+ 643  EPI4856110|B/Hong_Kong/RF-414/2025|2025            0.58%    passed     89.86%
+ 644  EPI4855885|B/Hong_Kong/RF-395/2025|2025            0.58%    passed     86.58%
+ 645  EPI4401375|B/Hong_Kong/RFL-044/2025|2025          30.50%    passed     36.47%
+ 646  EPI4401478|B/Hong_Kong/RFL-151/2025|2025           1.11%    passed     83.89%
+ 647  EPI4856275|B/Hong_Kong/RF-429/2025|2025            0.32%    passed     89.80%
+ 648  EPI4856271|B/Hong_Kong/RF-417/2025|2025            0.64%    passed     78.53%
+ 649  EPI986213|B/Hong_Kong/8/2017|2017                  6.74%    passed     99.94%
+ 650  EPI986211|B/Hong_Kong/15/2017|2017                 6.74%    passed     99.89%
+ 651  EPI1106050|B/Hong_Kong/269/2017|2017               2.02%    passed     78.78%
+ 652  EPI1022730|B/Hong_Kong/218/2017|2017               6.74%    passed     99.93%
+ 653  EPI1022732|B/Hong_Kong/219/2017|2017               6.74%    passed     99.58%
+ 654  EPI1022734|B/Hong_Kong/222/2017|2017               6.79%    passed     99.87%
+ 655  EPI1022736|B/Hong_Kong/238/2017|2017               6.74%    passed     99.81%
+ 656  EPI1022724|B/Hong_Kong/194/2017|2017               6.79%    passed     99.64%
+ 657  EPI1022726|B/Hong_Kong/201/2017|2017               6.74%    passed     99.95%
+ 658  EPI503588|B/Hong_Kong/438/2013|2013                6.74%    passed     99.92%
+ 659  EPI1022728|B/Hong_Kong/205/2017|2017               6.84%    passed     99.87%
+ 660  EPI1022729|B/Hong_Kong/217/2017|2017               6.74%    passed     99.89%
+ 661  EPI3521107|B/Hong_Kong/200/2024|2024               7.21%    passed     99.76%
+ 662  EPI1022738|B/Hong_Kong/245/2017|2017               6.74%    passed     99.75%
+ 663  EPI1022771|B/Hong_Kong/269/2017|2017               7.21%    passed     99.58%
+ 664  EPI4537349|B/Hong_Kong/150/2025|2025               7.21%    passed     98.30%
+ 665  EPI4537357|B/Hong_Kong/151/2025|2025               7.21%    passed     96.81%
+ 666  EPI3205792|B/Hong_Kong/63/2023|2023                2.02%    passed     90.05%
+ 667  EPI1107506|B/Hong_Kong/744/2017|2017               1.54%    passed     83.01%
+ 668  EPI1107628|B/Hong_Kong/726/2017|2017               1.54%    passed     83.01%
+ 669  EPI1107633|B/Hong_Kong/727/2017|2017               1.54%    passed     87.53%
+ 670  EPI1107639|B/Hong_Kong/729/2017|2017               1.54%    passed     80.87%
+ 671  EPI4855766|A/Hong_Kong/RF-388/2025|2025            0.48%    passed     63.15%
+ 672  EPI3143643|B/Hong_Kong/VB24010289/2024|2024        7.21%    passed     99.23%
+ 673  EPI3143642|B/Hong_Kong/VB24004538/2024|2024        7.21%    passed     99.62%
+ 674  EPI3551069|B/HongKong/194/2024|2024                7.21%    passed     99.47%
+ 675  EPI3551095|B/HongKong/190/2024|2024                7.21%    passed     99.76%
+ 676  EPI3143649|B/Hong_Kong/VB24019219/2024|2024        7.21%    passed     99.27%
+ 677  EPI3143654|B/Hong_Kong/VB24025388/2024|2024        7.21%    passed     99.28%
+ 678  EPI3143658|B/Hong_Kong/VB24032742/2024|2024        7.21%    passed     99.79%
+ 679  EPI3143661|B/Hong_Kong/VB24037219/2024|2024        7.21%    passed     99.26%
+ 680  EPI3743865|B/Hong_Kong/236/2024|2024               7.21%    passed     99.85%
+ 681  EPI3143666|B/Hong_Kong/VB24045212/2024|2024        7.21%    passed     99.29%
+ 682  EPI3143671|B/Hong_Kong/VB24053683/2024|2024        7.21%    passed     99.59%
+ 683  EPI3143675|B/Hong_Kong/VB24061409/2024|2024        7.21%    passed     99.66%
+ 684  EPI3447733|B/Hong_Kong/191/2024|2024               7.21%    passed     99.28%
+ 685  EPI4649394|B/Hong_Kong/RFL-256/2025|2025           0.48%    passed     62.12%
+ 686  EPI4649386|B/Hong_Kong/RFL-255/2025|2025           0.42%    passed     87.67%
+ 687  EPI4649378|B/Hong_Kong/RFL-254/2025|2025           0.42%    passed     86.95%
+ 688  EPI4649402|B/Hong_Kong/RFL-257/2025|2025           0.48%    passed     86.95%
+ 689  EPI806700|B/Hong_Kong/49/2016|2016                 1.54%    passed     88.37%
+ 690  EPI1196511|B/Hong_Kong/931/2017|2017               2.07%    passed     81.31%
+ 691  EPI1196504|B/Hong_Kong/728/2017|2017               1.54%    passed     80.87%
+ 692  EPI3550931|B/HongKong/199/2024|2024                7.21%    passed     98.80%
+ 693  EPI3551007|B/HongKong/192/2024|2024                7.27%    passed     99.36%
+ 694  EPI3551021|B/HongKong/196/2024|2024                7.21%    passed     99.76%
+ 695  EPI3551032|B/HongKong/191/2024|2024                7.21%    passed     99.28%
+ 696  EPI3551046|B/HongKong/193/2024|2024                7.21%    passed     99.77%
+ 697  EPI3550959|B/HongKong/197/2024|2024                7.21%    passed     99.61%
+ 698  EPI3550982|B/HongKong/195/2024|2024                7.21%    passed     99.92%
+ 699  EPI3550995|B/HongKong/198/2024|2024                7.21%    passed     99.76%
+WARNING: 82 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                             11.30%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: EPI1158025|B/Hong_Kong/1143/2017|2017 is identical to EPI1158001|B/Hong_Kong/1089/2017|2017 but kept for subsequent analysis
+NOTE: EPI3610245|B/Hong_Kong/218/2024|2024 is identical to EPI3834888|B/HongKong/218/2024|2024 but kept for subsequent analysis
+NOTE: EPI3834781|B/HongKong/224/2024|2024 is identical to EPI3834843|B/HongKong/219/2024|2024 but kept for subsequent analysis
+NOTE: EPI3650029|B/Hong_Kong/222/2024|2024 is identical to EPI3834810|B/HongKong/222/2024|2024 but kept for subsequent analysis
+NOTE: EPI3650069|B/Hong_Kong/223/2024|2024 is identical to EPI3834827|B/HongKong/223/2024|2024 but kept for subsequent analysis
+NOTE: EPI1267278|B/HK/1361/2018|2018 is identical to EPI1267277|B/HK/1360/2018|2018 but kept for subsequent analysis
+NOTE: EPI2498320|B/HK/9/2023|2023 is identical to EPI2498321|B/HK/11/2023|2023 but kept for subsequent analysis
+NOTE: EPI3358193|B/Hong_Kong/VB24089107/2024|2024 is identical to EPI3358194|B/Hong_Kong/VB24096494/2024|2024 but kept for subsequent analysis
+NOTE: EPI3834768|B/HongKong/231/2024|2024 is identical to EPI3834794|B/HongKong/228/2024|2024 but kept for subsequent analysis
+NOTE: EPI2972943|B/Hong_Kong/VB23243348/2023|2023 is identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024 but kept for subsequent analysis
+NOTE: EPI1542932|B/Hong_Kong/578/2019|2019 is identical to EPI1542922|B/Hong_Kong/308/2019|2019 but kept for subsequent analysis
+NOTE: EPI1568111|B/HK/218/2019|2019 is identical to EPI1542920|B/Hong_Kong/218/2019|2019 but kept for subsequent analysis
+NOTE: EPI3721472|B/Hong_Kong/230/2024|2024 is identical to EPI3834754|B/HongKong/230/2024|2024 but kept for subsequent analysis
+NOTE: EPI500365|B/Hong_Kong/445/2013|2013 is identical to EPI536443|B/Hong_Kong/3224/2014|2014 but kept for subsequent analysis
+NOTE: EPI4606335|B/Hong_Kong/165/2025|2025 is identical to EPI4638989|B/Hong_Kong/165/2025|2025 but kept for subsequent analysis
+NOTE: EPI4642366|B/Hong_Kong/164/2025|2025 is identical to EPI4638981|B/Hong_Kong/169/2025|2025 but kept for subsequent analysis
+NOTE: EPI4537349|B/Hong_Kong/150/2025|2025 is identical to EPI4639003|B/Hong_Kong/150/2025|2025 but kept for subsequent analysis
+NOTE: EPI4642679|B/Hong_Kong/179/2025|2025 is identical to EPI4638997|B/Hong_Kong/154/2025|2025 but kept for subsequent analysis
+NOTE: EPI3552445|B/Hong_Kong/3697/2024|2024 is identical to EPI3552413|B/Hong_Kong/2047/2024|2024 but kept for subsequent analysis
+NOTE: EPI3552469|B/Hong_Kong/3384/2024|2024 is identical to EPI3552421|B/Hong_Kong/2228/2024|2024 but kept for subsequent analysis
+NOTE: EPI1670306|B/Hong_Kong/997/2019|2019 is identical to EPI1691334|B/HK/997/2019|2019 but kept for subsequent analysis
+NOTE: EPI902543|B/Hong_Kong/767/2011|2011 is identical to EPI902537|B/Hong_Kong/762/2011|2011 but kept for subsequent analysis
+NOTE: EPI346740|B/Hong_Kong/599/2011|2011 is identical to EPI902535|B/Hong_Kong/599/2011|2011 but kept for subsequent analysis
+NOTE: EPI346738|B/Hong_Kong/591/2011|2011 is identical to EPI902603|B/Hong_Kong/591/2011|2011 but kept for subsequent analysis
+NOTE: EPI1568123|B/HK/668/2019|2019 is identical to EPI1604893|B/HK/660/2019|2019 but kept for subsequent analysis
+NOTE: EPI1568130|B/HK/639/2019|2019 is identical to EPI1604890|B/HK/657/2019|2019 but kept for subsequent analysis
+NOTE: EPI1604897|B/HK/672/2019|2019 is identical to EPI1604889|B/HK/655/2019|2019 but kept for subsequent analysis
+NOTE: EPI1604927|B/HK/859/2019|2019 is identical to EPI1604926|B/HK/848/2019|2019 but kept for subsequent analysis
+NOTE: EPI1605075|B/Hong_Kong/429281/2019|2019 is identical to EPI1605074|B/Hong_Kong/429235/2019|2019 but kept for subsequent analysis
+NOTE: EPI1052672|B/Hong_Kong/286/2017|2017 is identical to EPI1118515|B/Hong_Kong/286/2017|2017 but kept for subsequent analysis
+NOTE: EPI1594731|B/Hong_Kong/413110/2019|2019 is identical to EPI1605076|B/Hong_Kong/429309/2019|2019 but kept for subsequent analysis
+NOTE: EPI392579|B/Hong_Kong/3508/2012|2012 is identical to EPI904303|B/Hong_Kong/3508/2012|2012 but kept for subsequent analysis
+NOTE: EPI392585|B/Hong_Kong/3546/2012|2012 is identical to EPI904305|B/Hong_Kong/3546/2012|2012 but kept for subsequent analysis
+NOTE: EPI1593207|B/Hong_Kong/574/2019|2019 is identical to EPI1736410|B/Hong_Kong/574/2019|2019 but kept for subsequent analysis
+NOTE: EPI1843753|B/Hong_Kong/25/2020|2020 is identical to EPI1843731|B/Hong_Kong/28/2020|2020 but kept for subsequent analysis
+NOTE: EPI1735110|B/HK/29/2020|2020 is identical to EPI1843733|B/Hong_Kong/29/2020|2020 but kept for subsequent analysis
+NOTE: EPI1735102|B/HK/26/2020|2020 is identical to EPI1843727|B/Hong_Kong/26/2020|2020 but kept for subsequent analysis
+NOTE: EPI1735103|B/HK/27/2020|2020 is identical to EPI1843729|B/Hong_Kong/27/2020|2020 but kept for subsequent analysis
+NOTE: EPI1735105|B/HK/34/2020|2020 is identical to EPI1843759|B/Hong_Kong/34/2020|2020 but kept for subsequent analysis
+NOTE: EPI1735106|B/HK/31/2020|2020 is identical to EPI1843755|B/Hong_Kong/31/2020|2020 but kept for subsequent analysis
+NOTE: EPI1735113|B/HK/33/2020|2020 is identical to EPI1843757|B/Hong_Kong/33/2020|2020 but kept for subsequent analysis
+NOTE: EPI1843741|B/Hong_Kong/36/2020|2020 is identical to EPI1843739|B/Hong_Kong/35/2020|2020 but kept for subsequent analysis
+NOTE: EPI431334|B/Hong_Kong/3608/2012|2012 is identical to EPI904448|B/Hong_Kong/3608/2012|2012 but kept for subsequent analysis
+NOTE: EPI431338|B/Hong_Kong/6/2013|2013 is identical to EPI904447|B/Hong_Kong/6/2013|2013 but kept for subsequent analysis
+NOTE: EPI1478568|B/HK/33/2019|2019 is identical to EPI1478567|B/HK/32/2019|2019 but kept for subsequent analysis
+NOTE: EPI1478583|B/HK/48/2019|2019 is identical to EPI1478569|B/HK/34/2019|2019 but kept for subsequent analysis
+NOTE: EPI1478573|B/HK/41/2019|2019 is identical to EPI1478576|B/HK/40/2019|2019 but kept for subsequent analysis
+NOTE: EPI2212289|B/Hong_Kong/4/2022|2022 is identical to EPI2156966|B/Hong_Kong/4/2022|2022 but kept for subsequent analysis
+NOTE: EPI1478594|B/HK/78/2019|2019 is identical to EPI1478585|B/HK/50/2019|2019 but kept for subsequent analysis
+NOTE: EPI1356248|B/Hong_Kong/1397/2018|2018 is identical to EPI1353567|B/HK/1397/2018|2018 but kept for subsequent analysis
+NOTE: EPI1353570|B/HK/1408/2018|2018 is identical to EPI1353566|B/HK/1395/2018|2018 but kept for subsequent analysis
+NOTE: EPI1478581|B/HK/46/2019|2019 is identical to EPI1478578|B/HK/43/2019|2019 but kept for subsequent analysis
+NOTE: EPI1568112|B/HK/222/2019|2019 is identical to EPI1478597|B/HK/114/2019|2019 but kept for subsequent analysis
+NOTE: EPI3057459|B/Hong_Kong/70/2023|2023 is identical to EPI2928823|B/Hong_Kong/70/2023|2023 but kept for subsequent analysis
+NOTE: EPI3187730|B/Hong_Kong/61/2023|2023 is identical to EPI2929050|B/Hong_Kong/61/2023|2023 but kept for subsequent analysis
+NOTE: EPI3822711|B/Hong_Kong/0390/2024|2024 is identical to EPI3822734|B/Hong_Kong/6650/2024|2024 but kept for subsequent analysis
+NOTE: EPI1107639|B/Hong_Kong/729/2017|2017 is identical to EPI1124482|B/Hong_Kong/729/2017|2017 but kept for subsequent analysis
+NOTE: EPI1107633|B/Hong_Kong/727/2017|2017 is identical to EPI1124490|B/Hong_Kong/727/2017|2017 but kept for subsequent analysis
+NOTE: EPI1124714|B/Hong_Kong/718/2017|2017 is identical to EPI1124498|B/Hong_Kong/718/2017|2017 but kept for subsequent analysis
+NOTE: EPI1130667|B/Hong_Kong/739/2017|2017 is identical to EPI1124474|B/Hong_Kong/739/2017|2017 but kept for subsequent analysis
+NOTE: EPI1124721|B/Hong_Kong/714/2017|2017 is identical to EPI1124706|B/Hong_Kong/714/2017|2017 but kept for subsequent analysis
+NOTE: EPI2724960|B/Hong_Kong/19/2023|2023 is identical to EPI2972937|B/Hong_Kong/20/2023|2023 but kept for subsequent analysis
+NOTE: EPI1386714|B/Hong_Kong/1398/2018|2018 is identical to EPI1386706|B/Hong_Kong/1400/2018|2018 but kept for subsequent analysis
+NOTE: EPI3187892|B/Hong_Kong/72/2023|2023 is identical to EPI2929481|B/Hong_Kong/72/2023|2023 but kept for subsequent analysis
+NOTE: EPI3057497|B/Hong_Kong/63/2023|2023 is identical to EPI2929392|B/Hong_Kong/63/2023|2023 but kept for subsequent analysis
+NOTE: EPI3187772|B/Hong_Kong/74/2023|2023 is identical to EPI2929580|B/Hong_Kong/74/2023|2023 but kept for subsequent analysis
+NOTE: EPI4642097|B/Hong_Kong/96/2025|2025 is identical to EPI4642197|B/Hong_Kong/128/2025|2025 but kept for subsequent analysis
+NOTE: EPI3187914|B/Hong_Kong/60/2023|2023 is identical to EPI2929520|B/Hong_Kong/60/2023|2023 but kept for subsequent analysis
+NOTE: EPI2290446|B/HK/8/2022|2022 is identical to EPI2318959|B/HongKong/9/2022|2022 but kept for subsequent analysis
+NOTE: EPI2290444|B/HK/6/2022|2022 is identical to EPI2318922|B/HongKong/7/2022|2022 but kept for subsequent analysis
+NOTE: EPI2139283|B/Hong_Kong/3/2022|2022 is identical to EPI2122282|B/HK/3/2022|2022 but kept for subsequent analysis
+NOTE: EPI2721638|B/HongKong/8442/2023|2023 is identical to EPI2745305|B/HongKong/8442/2023|2023 but kept for subsequent analysis
+NOTE: EPI1252289|B/Hong_Kong/182/2018|2018 is identical to EPI1252291|B/Hong_Kong/179/2018|2018 but kept for subsequent analysis
+NOTE: EPI737968|B/Hong_Kong/51/2016|2016 is identical to EPI825571|B/Hong_Kong/1149/2016|2016 but kept for subsequent analysis
+NOTE: EPI2837949|B/Hong_Kong/CUHK005/2019|2019 is identical to EPI2837981|B/Hong_Kong/CUHK010/2019|2019 but kept for subsequent analysis
+NOTE: EPI2838085|B/Hong_Kong/CUHK028/2019|2019 is identical to EPI2838077|B/Hong_Kong/CUHK027/2019|2019 but kept for subsequent analysis
+NOTE: EPI2838021|B/Hong_Kong/CUHK020/2019|2019 is identical to EPI2838093|B/Hong_Kong/CUHK029/2019|2019 but kept for subsequent analysis
+NOTE: EPI2838069|B/Hong_Kong/CUHK026/2019|2019 is identical to EPI2838061|B/Hong_Kong/CUHK025/2019|2019 but kept for subsequent analysis
+NOTE: EPI675814|B/Hong_Kong/1835/2015|2015 is identical to EPI699509|B/Hong_Kong/58/2016|2016 but kept for subsequent analysis
+NOTE: EPI1053548|B/Hong_Kong/286/2017|2017 is identical to EPI1040343|B/Hong_Kong/286/2017|2017 but kept for subsequent analysis
+NOTE: EPI1053546|B/Hong_Kong/269/2017|2017 is identical to EPI1040345|B/Hong_Kong/296/2017|2017 but kept for subsequent analysis
+NOTE: EPI2446385|B/Hong_Kong/8/2022|2022 is identical to EPI2360909|B/Hong_Kong/8/2022|2022 but kept for subsequent analysis
+NOTE: EPI806700|B/Hong_Kong/49/2016|2016 is identical to EPI737960|B/Hong_Kong/49/2016|2016 but kept for subsequent analysis
+NOTE: EPI1585674|B/Hong_Kong/741/2019|2019 is identical to EPI1585690|B/Hong_Kong/744/2019|2019 but kept for subsequent analysis
+NOTE: EPI1415341|B/HK/27/2019|2019 is identical to EPI1568121|B/HK/500/2019|2019 but kept for subsequent analysis
+NOTE: EPI1182337|B/Hong_Kong/1061/2017|2017 is identical to EPI1182273|B/Hong_Kong/1146/2017|2017 but kept for subsequent analysis
+NOTE: EPI1415330|B/HK/13/2019|2019 is identical to EPI1629580|B/HK/928/2019|2019 but kept for subsequent analysis
+NOTE: EPI334700|B/Hong_Kong/767/2011|2011 is identical to EPI334692|B/Hong_Kong/762/2011|2011 but kept for subsequent analysis
+NOTE: EPI3550931|B/HongKong/199/2024|2024 is identical to EPI3492189|B/Hong_Kong/199/2024|2024 but kept for subsequent analysis
+NOTE: EPI1052680|B/Hong_Kong/296/2017|2017 is identical to EPI1052656|B/Hong_Kong/269/2017|2017 but kept for subsequent analysis
+NOTE: EPI1594746|B/Hong_Kong/420374/2019|2019 is identical to EPI1594745|B/Hong_Kong/417827/2019|2019 but kept for subsequent analysis
+NOTE: EPI1594750|B/Hong_Kong/425311/2019|2019 is identical to EPI1594749|B/Hong_Kong/425024/2019|2019 but kept for subsequent analysis
+NOTE: EPI3551021|B/HongKong/196/2024|2024 is identical to EPI3466311|B/Hong_Kong/196/2024|2024 but kept for subsequent analysis
+NOTE: EPI1415332|B/HK/14/2019|2019 is identical to EPI1415329|B/HK/10/2019|2019 but kept for subsequent analysis
+NOTE: EPI3551032|B/HongKong/191/2024|2024 is identical to EPI3447733|B/Hong_Kong/191/2024|2024 but kept for subsequent analysis
+NOTE: 91 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: EPI3626916|B/Hong_Kong/219/2024|2024 (identical to EPI3834843|B/HongKong/219/2024|2024) is ignored but added at the end
+NOTE: EPI3667504|B/Hong_Kong/224/2024|2024 (identical to EPI3834843|B/HongKong/219/2024|2024) is ignored but added at the end
+NOTE: EPI3934998|B/HongKong/219/2024|2024 (identical to EPI3834843|B/HongKong/219/2024|2024) is ignored but added at the end
+NOTE: EPI1272806|B/Hong_Kong/1360/2018|2018 (identical to EPI1267277|B/HK/1360/2018|2018) is ignored but added at the end
+NOTE: EPI1272808|B/Hong_Kong/1361/2018|2018 (identical to EPI1267277|B/HK/1360/2018|2018) is ignored but added at the end
+NOTE: EPI1353565|B/HK/1393/2018|2018 (identical to EPI1267277|B/HK/1360/2018|2018) is ignored but added at the end
+NOTE: EPI1353569|B/HK/1400/2018|2018 (identical to EPI1267277|B/HK/1360/2018|2018) is ignored but added at the end
+NOTE: EPI1353568|B/HK/1398/2018|2018 (identical to EPI1267277|B/HK/1360/2018|2018) is ignored but added at the end
+NOTE: EPI1393951|B/Hong_Kong/1393/2018|2018 (identical to EPI1267277|B/HK/1360/2018|2018) is ignored but added at the end
+NOTE: EPI3667544|B/Hong_Kong/228/2024|2024 (identical to EPI3834794|B/HongKong/228/2024|2024) is ignored but added at the end
+NOTE: EPI2972939|B/Hong_Kong/22/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2972938|B/Hong_Kong/21/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2972936|B/Hong_Kong/VB23220384/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2972932|B/Hong_Kong/VB23211467/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2972928|B/Hong_Kong/VB23185815/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2745306|B/HongKong/6952/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2745307|B/HongKong/2394/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2721640|B/HongKong/6952/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2721642|B/HongKong/2394/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI3570448|B/Hong_Kong/207/2024|2024 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI3590697|B/Hong_Kong/209/2024|2024 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI3590737|B/Hong_Kong/211/2024|2024 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2983225|B/HongKong/68/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI2983152|B/HongKong/62/2023|2023 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI3143658|B/Hong_Kong/VB24032742/2024|2024 (identical to EPI3358192|B/Hong_Kong/VB24078471/2024|2024) is ignored but added at the end
+NOTE: EPI1604891|B/HK/658/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1478577|B/HK/42/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1478570|B/HK/35/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1478572|B/HK/37/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1478591|B/HK/67/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1478590|B/HK/66/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1478593|B/HK/73/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1478595|B/HK/87/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1478596|B/HK/91/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1568109|B/HK/216/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1568108|B/HK/416/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1568114|B/HK/355/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1568113|B/HK/220/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1568125|B/HK/308/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1568127|B/HK/338/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1629578|B/HK/917/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI1415340|B/HK/25/2019|2019 (identical to EPI1542922|B/Hong_Kong/308/2019|2019) is ignored but added at the end
+NOTE: EPI4642540|B/Hong_Kong/172/2025|2025 (identical to EPI4638981|B/Hong_Kong/169/2025|2025) is ignored but added at the end
+NOTE: EPI4606327|B/Hong_Kong/166/2025|2025 (identical to EPI4638981|B/Hong_Kong/169/2025|2025) is ignored but added at the end
+NOTE: EPI4606311|B/Hong_Kong/169/2025|2025 (identical to EPI4638981|B/Hong_Kong/169/2025|2025) is ignored but added at the end
+NOTE: EPI4606351|B/Hong_Kong/159/2025|2025 (identical to EPI4638981|B/Hong_Kong/169/2025|2025) is ignored but added at the end
+NOTE: EPI4537357|B/Hong_Kong/151/2025|2025 (identical to EPI4638981|B/Hong_Kong/169/2025|2025) is ignored but added at the end
+NOTE: EPI4606367|B/Hong_Kong/154/2025|2025 (identical to EPI4638997|B/Hong_Kong/154/2025|2025) is ignored but added at the end
+NOTE: EPI334690|B/Hong_Kong/599/2011|2011 (identical to EPI902535|B/Hong_Kong/599/2011|2011) is ignored but added at the end
+NOTE: EPI326165|B/Hong_Kong/591/2011|2011 (identical to EPI902603|B/Hong_Kong/591/2011|2011) is ignored but added at the end
+NOTE: EPI1568129|B/HK/564/2019|2019 (identical to EPI1604890|B/HK/657/2019|2019) is ignored but added at the end
+NOTE: EPI1605087|B/Hong_Kong/430026/2019|2019 (identical to EPI1605074|B/Hong_Kong/429235/2019|2019) is ignored but added at the end
+NOTE: EPI1843735|B/Hong_Kong/30/2020|2020 (identical to EPI1843731|B/Hong_Kong/28/2020|2020) is ignored but added at the end
+NOTE: EPI1735100|B/HK/25/2020|2020 (identical to EPI1843731|B/Hong_Kong/28/2020|2020) is ignored but added at the end
+NOTE: EPI1735112|B/HK/30/2020|2020 (identical to EPI1843731|B/Hong_Kong/28/2020|2020) is ignored but added at the end
+NOTE: EPI1735111|B/HK/28/2020|2020 (identical to EPI1843731|B/Hong_Kong/28/2020|2020) is ignored but added at the end
+NOTE: EPI433143|B/Hong_Kong/05/2013|2013 (identical to EPI904447|B/Hong_Kong/6/2013|2013) is ignored but added at the end
+NOTE: EPI1478574|B/HK/38/2019|2019 (identical to EPI1478567|B/HK/32/2019|2019) is ignored but added at the end
+NOTE: EPI1478580|B/HK/45/2019|2019 (identical to EPI1478569|B/HK/34/2019|2019) is ignored but added at the end
+NOTE: EPI1568116|B/HK/455/2019|2019 (identical to EPI1478569|B/HK/34/2019|2019) is ignored but added at the end
+NOTE: EPI1568119|B/HK/539/2019|2019 (identical to EPI1478569|B/HK/34/2019|2019) is ignored but added at the end
+NOTE: EPI1415326|B/HK/6/2019|2019 (identical to EPI1478569|B/HK/34/2019|2019) is ignored but added at the end
+NOTE: EPI1415328|B/HK/9/2019|2019 (identical to EPI1478569|B/HK/34/2019|2019) is ignored but added at the end
+NOTE: EPI1415337|B/HK/21/2019|2019 (identical to EPI1478569|B/HK/34/2019|2019) is ignored but added at the end
+NOTE: EPI1415339|B/HK/24/2019|2019 (identical to EPI1478569|B/HK/34/2019|2019) is ignored but added at the end
+NOTE: EPI1415335|B/HK/19/2019|2019 (identical to EPI1478569|B/HK/34/2019|2019) is ignored but added at the end
+NOTE: EPI1415327|B/HK/7/2019|2019 (identical to EPI1353567|B/HK/1397/2018|2018) is ignored but added at the end
+NOTE: EPI1415334|B/HK/17/2019|2019 (identical to EPI1353567|B/HK/1397/2018|2018) is ignored but added at the end
+NOTE: EPI1356246|B/Hong_Kong/1395/2018|2018 (identical to EPI1353566|B/HK/1395/2018|2018) is ignored but added at the end
+NOTE: EPI1196504|B/Hong_Kong/728/2017|2017 (identical to EPI1124482|B/Hong_Kong/729/2017|2017) is ignored but added at the end
+NOTE: EPI1130673|B/Hong_Kong/740/2017|2017 (identical to EPI1124498|B/Hong_Kong/718/2017|2017) is ignored but added at the end
+NOTE: EPI1182357|B/Hong_Kong/1121/2017|2017 (identical to EPI1124498|B/Hong_Kong/718/2017|2017) is ignored but added at the end
+NOTE: EPI1107506|B/Hong_Kong/744/2017|2017 (identical to EPI1124498|B/Hong_Kong/718/2017|2017) is ignored but added at the end
+NOTE: EPI1107628|B/Hong_Kong/726/2017|2017 (identical to EPI1124498|B/Hong_Kong/718/2017|2017) is ignored but added at the end
+NOTE: EPI2724959|B/HK/18/2023|2023 (identical to EPI2972937|B/Hong_Kong/20/2023|2023) is ignored but added at the end
+NOTE: EPI1312916|B/Hong_Kong/1362/2018|2018 (identical to EPI1386706|B/Hong_Kong/1400/2018|2018) is ignored but added at the end
+NOTE: EPI3205792|B/Hong_Kong/63/2023|2023 (identical to EPI2929392|B/Hong_Kong/63/2023|2023) is ignored but added at the end
+NOTE: EPI4642083|B/Hong_Kong/95/2025|2025 (identical to EPI4642197|B/Hong_Kong/128/2025|2025) is ignored but added at the end
+NOTE: EPI4642749|B/Hong_Kong/183/2025|2025 (identical to EPI4642197|B/Hong_Kong/128/2025|2025) is ignored but added at the end
+NOTE: EPI4642609|B/Hong_Kong/177/2025|2025 (identical to EPI4642197|B/Hong_Kong/128/2025|2025) is ignored but added at the end
+NOTE: EPI4606319|B/Hong_Kong/168/2025|2025 (identical to EPI4642197|B/Hong_Kong/128/2025|2025) is ignored but added at the end
+NOTE: EPI4606359|B/Hong_Kong/157/2025|2025 (identical to EPI4642197|B/Hong_Kong/128/2025|2025) is ignored but added at the end
+NOTE: EPI4606343|B/Hong_Kong/162/2025|2025 (identical to EPI4642197|B/Hong_Kong/128/2025|2025) is ignored but added at the end
+NOTE: EPI4673535|B/Hong_Kong/186/2025|2025 (identical to EPI4642197|B/Hong_Kong/128/2025|2025) is ignored but added at the end
+NOTE: EPI2838037|B/Hong_Kong/CUHK022/2019|2019 (identical to EPI2838093|B/Hong_Kong/CUHK029/2019|2019) is ignored but added at the end
+NOTE: EPI1022771|B/Hong_Kong/269/2017|2017 (identical to EPI1040345|B/Hong_Kong/296/2017|2017) is ignored but added at the end
+NOTE: EPI1182343|B/Hong_Kong/1079/2017|2017 (identical to EPI1182273|B/Hong_Kong/1146/2017|2017) is ignored but added at the end
+NOTE: EPI1182350|B/Hong_Kong/1096/2017|2017 (identical to EPI1182273|B/Hong_Kong/1146/2017|2017) is ignored but added at the end
+NOTE: EPI1106050|B/Hong_Kong/269/2017|2017 (identical to EPI1052656|B/Hong_Kong/269/2017|2017) is ignored but added at the end
+NOTE: EPI3550995|B/HongKong/198/2024|2024 (identical to EPI3466311|B/Hong_Kong/196/2024|2024) is ignored but added at the end
+NOTE: EPI1415336|B/HK/20/2019|2019 (identical to EPI1415329|B/HK/10/2019|2019) is ignored but added at the end
+Alignment was printed to B/B.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to B/B.uniqueseq.phy
+Creating fast initial parsimony tree by random order stepwise addition...
+36.569 seconds, parsimony score: 1122 (based on 579 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 432749)...
+
+NOTE: 66 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 64 CPU cores
+Increase to 10 rounds for branch lengths
+81 trees examined
+Threads: 1 / Time: 64.334 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -51269
+Threads: 2 / Time: 60.019 sec / Speedup: 1.072 / Efficiency: 54% / LogL: -51269
+Threads: 3 / Time: 63.610 sec / Speedup: 1.011 / Efficiency: 34% / LogL: -51269
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -11840.591
+2. Current log-likelihood: -11015.246
+3. Current log-likelihood: -11014.972
+Optimal log-likelihood: -11014.966
+Rate parameters:  A-C: 1.34795  A-G: 9.91983  A-T: 0.47592  C-G: 0.09668  C-T: 11.28972  G-T: 1.00000
+Base frequencies:  A: 0.337  C: 0.219  G: 0.215  T: 0.229
+Gamma shape alpha: 0.347
+Parameters optimization took 3 rounds (5.255 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.987712 secs using 199.9% CPU
+Computing ML distances took 0.991064 sec (of wall-clock time) 1.979831 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00749802 secs using 276.6% CPU
+Computing RapidNJ tree took 0.121308 sec (of wall-clock time) 0.191670 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -11137.836
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 32.114 second
+Computing log-likelihood of 98 initial trees ... 8.416 seconds
+Current best score: -10954.443
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -10948.099
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -10944.644
+Iteration 10 / LogL: -10947.074 / Time: 0h:5m:44s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -10935.938
+Iteration 20 / LogL: -10960.563 / Time: 0h:6m:59s
+Finish initializing candidate tree set (20)
+Current best tree score: -10935.938 / CPU time: 187.551
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -10952.783 / Time: 0h:7m:40s (0h:20m:27s left)
+Iteration 40 / LogL: -10971.749 / Time: 0h:8m:23s (0h:14m:45s left)
+Iteration 50 / LogL: -10941.889 / Time: 0h:9m:13s (0h:11m:14s left)
+Log-likelihood cutoff on original alignment: -11007.098
+Iteration 60 / LogL: -10945.225 / Time: 0h:10m:1s (0h:8m:37s left)
+Iteration 70 / LogL: -10956.270 / Time: 0h:10m:50s (0h:6m:31s left)
+Iteration 80 / LogL: -10975.234 / Time: 0h:11m:41s (0h:4m:46s left)
+Iteration 90 / LogL: -10963.951 / Time: 0h:12m:24s (0h:3m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 97: -10930.830
+Iteration 100 / LogL: -10983.090 / Time: 0h:13m:10s (0h:12m:18s left)
+Log-likelihood cutoff on original alignment: -10999.727
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -10989.827 / Time: 0h:13m:59s (0h:11m:2s left)
+Iteration 120 / LogL: -10936.130 / Time: 0h:14m:45s (0h:9m:30s left)
+Iteration 130 / LogL: -10966.090 / Time: 0h:15m:34s (0h:8m:7s left)
+Iteration 140 / LogL: -10941.417 / Time: 0h:16m:22s (0h:6m:48s left)
+Iteration 150 / LogL: -10941.975 / Time: 0h:17m:11s (0h:5m:33s left)
+Log-likelihood cutoff on original alignment: -10999.727
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 157: -10930.518
+Iteration 160 / LogL: -10955.322 / Time: 0h:18m:3s (0h:10m:38s left)
+Iteration 170 / LogL: -10958.277 / Time: 0h:18m:57s (0h:9m:26s left)
+Iteration 180 / LogL: -10951.319 / Time: 0h:19m:48s (0h:8m:15s left)
+Iteration 190 / LogL: -11017.023 / Time: 0h:20m:29s (0h:7m:2s left)
+Iteration 200 / LogL: -10937.166 / Time: 0h:21m:22s (0h:5m:56s left)
+Log-likelihood cutoff on original alignment: -10999.727
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -10953.335 / Time: 0h:22m:16s (0h:9m:19s left)
+Iteration 220 / LogL: -10988.119 / Time: 0h:23m:4s (0h:8m:12s left)
+Iteration 230 / LogL: -10946.486 / Time: 0h:23m:58s (0h:7m:8s left)
+Iteration 240 / LogL: -10964.839 / Time: 0h:24m:48s (0h:6m:4s left)
+BETTER TREE FOUND at iteration 250: -10930.509
+Iteration 250 / LogL: -10930.509 / Time: 0h:25m:40s (0h:10m:3s left)
+Log-likelihood cutoff on original alignment: -10999.727
+Iteration 260 / LogL: -10936.239 / Time: 0h:26m:32s (0h:9m:0s left)
+Iteration 270 / LogL: -10948.085 / Time: 0h:27m:27s (0h:7m:59s left)
+Iteration 280 / LogL: -10942.698 / Time: 0h:28m:17s (0h:6m:56s left)
+Iteration 290 / LogL: -10934.648 / Time: 0h:29m:5s (0h:5m:54s left)
+Iteration 300 / LogL: -10941.864 / Time: 0h:29m:58s (0h:4m:54s left)
+Log-likelihood cutoff on original alignment: -10999.727
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 310 / LogL: -10970.027 / Time: 0h:30m:48s (0h:8m:47s left)
+Iteration 320 / LogL: -10956.110 / Time: 0h:31m:34s (0h:7m:45s left)
+Iteration 330 / LogL: -10974.719 / Time: 0h:32m:26s (0h:6m:46s left)
+Iteration 340 / LogL: -10936.018 / Time: 0h:33m:19s (0h:5m:47s left)
+Iteration 350 / LogL: -10937.991 / Time: 0h:34m:10s (0h:4m:48s left)
+Log-likelihood cutoff on original alignment: -10999.727
+TREE SEARCH COMPLETED AFTER 351 ITERATIONS / Time: 0h:34m:19s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10930.509
+Optimal log-likelihood: -10930.503
+Rate parameters:  A-C: 1.37766  A-G: 9.92114  A-T: 0.48712  C-G: 0.10180  C-T: 11.56712  G-T: 1.00000
+Base frequencies:  A: 0.337  C: 0.219  G: 0.215  T: 0.229
+Gamma shape alpha: 0.352
+Parameters optimization took 1 rounds (0.396 sec)
+BEST SCORE FOUND : -10930.503
+Creating bootstrap support values...
+Split supports printed to NEXUS file B/B.splits.nex
+Total tree length: 0.665
+
+Total number of iterations: 351
+CPU time used for tree search: 3509.097 sec (0h:58m:29s)
+Wall-clock time used for tree search: 1827.605 sec (0h:30m:27s)
+Total CPU time used: 6229.552 sec (1h:43m:49s)
+Total wall-clock time used: 2061.878 sec (0h:34m:21s)
+
+Computing bootstrap consensus tree...
+Reading input file B/B.splits.nex...
+608 taxa and 16527 splits.
+Consensus tree written to B/B.contree
+Reading input trees file B/B.contree
+Log-likelihood of consensus tree: -10931.709
+
+Analysis results written to: 
+  IQ-TREE report:                B/B.iqtree
+  Maximum-likelihood tree:       B/B.treefile
+  Likelihood distances:          B/B.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          B/B.splits.nex
+  Consensus tree:                B/B.contree
+  Screen log file:               B/B.log
+
+Date and Time: Sat Jan 24 22:15:20 2026

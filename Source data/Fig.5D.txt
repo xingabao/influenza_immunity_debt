@@ -1,0 +1,4 @@
+Source data for Fig.5D: Non-linear (GAM-based) Granger causality test between Flu A and Flu B
+Direction	Stat	P_val	Type	Sig	P_label
+Flu A -> Flu B	0.189427587963042	5.45174010188662e-07	Non-linear (Deviance)	***	*P* = 5.452 × 10<sup>-7</sup>
+Flu B -> Flu A	0.0159222459871131	0.740497612719838	Non-linear (Deviance)	NS	*P* = 0.740

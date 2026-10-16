@@ -1,0 +1,12 @@
+Source data for Fig.S21A: Sensitivity of cross map skill (rho) to embedding dimension E
+E	Direction	Rho
+6	Flu A -> Flu B	0.108799675730126
+6	Flu B -> Flu A	0.0667996301304098
+7	Flu A -> Flu B	0.124395944191615
+7	Flu B -> Flu A	0.105755825023539
+8	Flu A -> Flu B	0.141782944172452
+8	Flu B -> Flu A	0.0928328057996738
+9	Flu A -> Flu B	0.142901624466171
+9	Flu B -> Flu A	0.101434698942087
+10	Flu A -> Flu B	0.11514251689483
+10	Flu B -> Flu A	0.0738370481819269

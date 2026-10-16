@@ -1,0 +1,14 @@
+Source data for Fig.S22C: Non-linear (GAM-based) Granger causality test between search intensity and influenza activity
+Period	Direction	Stat	P_val	Type	Sig	P_label
+Pre-Pandemic	Search
+to
+Influenza	0.489406347102917	0.00347122977929076	Non-linear (GAM)	**	*P* = 0.003
+Pre-Pandemic	Influenza
+to
+Search	4.58006447546515	0.00121818179372063	Non-linear (GAM)	**	*P* = 0.001
+Post-Pandemic	Search
+to
+Influenza	0.819502432651271	1.01545080580488e-08	Non-linear (GAM)	***	*P* = 1.015 × 10<sup>-8</sup>
+Post-Pandemic	Influenza
+to
+Search	1.60680041906997	0.0607993123228799	Non-linear (GAM)	NS	*P* = 0.061

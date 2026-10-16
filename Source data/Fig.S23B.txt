@@ -1,0 +1,14 @@
+Source data for Fig.S23B: Linear Granger causality test between search intensity and influenza activity
+Period	Direction	F_stat	P_val	Type	Sig	P_label
+Pre-Pandemic	Search
+to
+Influenza	2.42476729200947	0.0902030366748927	Linear	NS	*P* = 0.090
+Pre-Pandemic	Influenza
+to
+Search	22.6326133615834	6.84194122234002e-10	Linear	***	*P* = 6.842 × 10<sup>-10</sup>
+Post-Pandemic	Search
+to
+Influenza	1.77600533158157	0.173365346027892	Linear	NS	*P* = 0.173
+Post-Pandemic	Influenza
+to
+Search	4.30624459589075	0.0154429462255492	Linear	*	*P* = 0.015

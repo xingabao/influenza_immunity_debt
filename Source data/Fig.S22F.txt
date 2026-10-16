@@ -1,0 +1,78 @@
+Source data for Fig.S22F: Convergent cross mapping (CCM) predictive skill (rho) versus library size, with 95% surrogate null limit
+LibSize	Rho	Type	Direction	Class	Period	E	P_kendall
+10	0.187735168550725	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+35	0.245831726487541	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+60	0.260168171883221	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+85	0.271727978805756	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+110	0.263197539963391	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+135	0.27679077464006	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+160	0.283211840839843	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+185	0.291395042442031	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+210	0.299982688327884	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+235	0.30311514971169	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+260	0.302558057896026	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+285	0.314188684079447	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+310	0.318400804208575	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+335	0.322995631755374	Real Data	Search to Influenza	Observed	Pre-Pandemic	2	1.19295751055404e-09
+10	0.11843342594412	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+35	0.11843342594412	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+60	0.133972914892842	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+85	0.141618342941531	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+110	0.14436471004434	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+135	0.146625114656147	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+160	0.149008138702355	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+185	0.152776421626499	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+210	0.155878312811644	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+235	0.159799251893104	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+260	0.162245154157424	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+285	0.168136277235606	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+310	0.175402041575674	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+335	0.175402041575674	95% Null Limit	Search to Influenza	Null 95%	Pre-Pandemic	2	1.19295751055404e-09
+10	0.120734965830342	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+35	0.176871180814417	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+60	0.200984594623139	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+85	0.210908288849016	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+110	0.209330993517475	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+135	0.218803754582846	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+160	0.218293777633653	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+185	0.211178577527669	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+210	0.194554084863093	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+235	0.198066501406232	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+260	0.199583120513956	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+285	0.192283287526621	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+310	0.190780373657427	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+335	0.19064063751616	Real Data	Influenza to Search	Observed	Pre-Pandemic	2	0.774718493346656
+10	0.169505713764225	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+35	0.169505713764225	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+60	0.19390732616006	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+85	0.204031369097317	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+110	0.210660699720091	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+135	0.21443149144375	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+160	0.217679937605416	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+185	0.219801221625774	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+210	0.223118751110565	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+235	0.225955941099436	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+260	0.228323191250378	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+285	0.230511373834762	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+310	0.233794094443047	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+335	0.233794094443047	95% Null Limit	Influenza to Search	Null 95%	Pre-Pandemic	2	0.774718493346656
+10	0.524063626893336	Real Data	Search to Influenza	Observed	Post-Pandemic	2	0.591666666666667
+35	0.549765830957854	Real Data	Search to Influenza	Observed	Post-Pandemic	2	0.591666666666667
+60	0.54543633739677	Real Data	Search to Influenza	Observed	Post-Pandemic	2	0.591666666666667
+85	0.531998653156987	Real Data	Search to Influenza	Observed	Post-Pandemic	2	0.591666666666667
+110	0.536708659132631	Real Data	Search to Influenza	Observed	Post-Pandemic	2	0.591666666666667
+10	0.267786133548328	95% Null Limit	Search to Influenza	Null 95%	Post-Pandemic	2	0.591666666666667
+35	0.267786133548328	95% Null Limit	Search to Influenza	Null 95%	Post-Pandemic	2	0.591666666666667
+60	0.300224084061556	95% Null Limit	Search to Influenza	Null 95%	Post-Pandemic	2	0.591666666666667
+85	0.316299053448868	95% Null Limit	Search to Influenza	Null 95%	Post-Pandemic	2	0.591666666666667
+110	0.316299053448868	95% Null Limit	Search to Influenza	Null 95%	Post-Pandemic	2	0.591666666666667
+10	0.286482832843455	Real Data	Influenza to Search	Observed	Post-Pandemic	2	0.758333333333333
+35	0.340268212744183	Real Data	Influenza to Search	Observed	Post-Pandemic	2	0.758333333333333
+60	0.329765793292624	Real Data	Influenza to Search	Observed	Post-Pandemic	2	0.758333333333333
+85	0.327964308418841	Real Data	Influenza to Search	Observed	Post-Pandemic	2	0.758333333333333
+110	0.312423252091235	Real Data	Influenza to Search	Observed	Post-Pandemic	2	0.758333333333333
+10	0.355991202907304	95% Null Limit	Influenza to Search	Null 95%	Post-Pandemic	2	0.758333333333333
+35	0.355991202907304	95% Null Limit	Influenza to Search	Null 95%	Post-Pandemic	2	0.758333333333333
+60	0.410418226111548	95% Null Limit	Influenza to Search	Null 95%	Post-Pandemic	2	0.758333333333333
+85	0.438769046074843	95% Null Limit	Influenza to Search	Null 95%	Post-Pandemic	2	0.758333333333333
+110	0.438769046074843	95% Null Limit	Influenza to Search	Null 95%	Post-Pandemic	2	0.758333333333333

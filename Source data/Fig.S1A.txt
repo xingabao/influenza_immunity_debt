@@ -1,0 +1,50 @@
+Source data for Fig.S1A: Annual distribution of respiratory specimens by influenza result (Influenza A, Influenza B, Non-Influenza), Kiang Wu Hospital cohort 2010-2025
+Year	Group	Count
+2010	Influenza A	1291
+2010	Influenza B	522
+2010	Non-Influenza	31947
+2011	Influenza A	1590
+2011	Influenza B	132
+2011	Non-Influenza	29483
+2012	Influenza A	2374
+2012	Influenza B	1573
+2012	Non-Influenza	37168
+2013	Influenza A	1213
+2013	Influenza B	100
+2013	Non-Influenza	28314
+2014	Influenza A	2206
+2014	Influenza B	521
+2014	Non-Influenza	31850
+2015	Influenza A	3056
+2015	Influenza B	1156
+2015	Non-Influenza	149191
+2016	Influenza A	2356
+2016	Influenza B	1812
+2016	Non-Influenza	149236
+2017	Influenza A	3887
+2017	Influenza B	452
+2017	Non-Influenza	165797
+2018	Influenza A	2476
+2018	Influenza B	2452
+2018	Non-Influenza	172447
+2019	Influenza A	16836
+2019	Influenza B	8924
+2019	Non-Influenza	186006
+2020	Influenza A	7780
+2020	Influenza B	1491
+2020	Non-Influenza	79277
+2021	Influenza A	5181
+2021	Influenza B	1702
+2021	Non-Influenza	99463
+2022	Influenza A	8536
+2022	Influenza B	1835
+2022	Non-Influenza	126932
+2023	Influenza A	21474
+2023	Influenza B	4201
+2023	Non-Influenza	162050
+2024	Influenza A	8589
+2024	Influenza B	2629
+2024	Non-Influenza	165858
+2025	Influenza A	4673
+2025	Influenza B	577
+2025	Non-Influenza	139680

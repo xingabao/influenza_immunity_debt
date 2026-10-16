@@ -1,0 +1,3 @@
+Source data for Fig.S9B: Odds ratio for emergency department attendance in the post-pandemic period versus pre-pandemic baseline (binomial GLM, 95% CI)
+term	estimate	std.error	statistic	p.value	conf.low	conf.high	label_text
+PeriodPost-Pandemic	2.03206609014799	0.0157124598834083	45.1268012219514	0	1.97046589439727	2.09564656460915	2.032 [1.970 - 2.096]
