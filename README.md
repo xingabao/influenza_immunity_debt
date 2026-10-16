@@ -46,6 +46,7 @@ Following: https://www.nature.com/documents/nr-software-policy.pdf
   + `Magnitude_ceiling_test.R`. Implements a Magnitude Ceiling Test to distinguish antigenic drift from immunity debt by comparing post-pandemic influenza peak excess rates against pre-pandemic historical ceilings. Uses GAMM-based counterfactual simulation with 1000 posterior draws and decomposes drift versus immunity debt components. Generates ceiling test visualizations and statistical summary tables.
   + `SEIRS_immunity_debt_model.R`. Implements a mechanistic SEIRS compartmental model to quantify post-pandemic immunity debt through prior predictive simulation (LHS), ABC rejection sampling, and Nelder-Mead optimization. Performs PRCC global sensitivity analysis and one-way sensitivity analysis for immunity duration. Generates trajectory envelopes, susceptible pool dynamics, PRCC sensitivity plots, and mechanistic bridge comparisons to GAMM estimates.
 - [data](./data):  Datasets and input files required to reproduce the analysis.
+- [Tables](./Tables): Output tables and statistical summaries in Excel format.
 - [Source data](./Source data):  Source data for figures are provided as a Source Data file.
 
 
